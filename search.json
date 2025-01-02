@@ -1,41 +1,55 @@
 [
   {
-    "objectID": "data.html",
-    "href": "data.html",
-    "title": "Data",
+    "objectID": "cheatsheets.html",
+    "href": "cheatsheets.html",
+    "title": "Cheat Sheets",
     "section": "",
-    "text": "[UNDER CONSTRUCTION]\nWe’ll use data from several real world situations in class.",
+    "text": "Cheat sheets are your friends, use them at all times.\n\nrstudio-IDE-cheatsheet.pdf\nrmarkdown-cheatsheet-2.0.pdf\nbase-r-cheatsheet.pdf\ndplyr-cheatsheet.pdf\nggplot2-cheatsheet-2.1.pdf\ndata-import-cheatsheet.pdf\nlubridate-cheatsheet.pdf\nshiny-cheatsheet.pdf\ncommand-line-cheatsheet.pdf\nstringr-cheatsheet.pdf",
     "crumbs": [
-      "Datasets"
+      "Other",
+      "Cheatsheets"
     ]
   },
   {
-    "objectID": "data.html#data-1",
-    "href": "data.html#data-1",
-    "title": "Data",
-    "section": "Data 1",
-    "text": "Data 1",
-    "crumbs": [
-      "Datasets"
-    ]
+    "objectID": "calendar.html",
+    "href": "calendar.html",
+    "title": "Calendar",
+    "section": "",
+    "text": "This is an example of embedding a widget with multiple calendars. This might be useful if you want to have different calendars for assignments, exams, instructor office hours, GSI office hours, etc."
   },
   {
-    "objectID": "data.html#data-2",
-    "href": "data.html#data-2",
-    "title": "Data",
-    "section": "Data 2",
-    "text": "Data 2",
-    "crumbs": [
-      "Datasets"
-    ]
+    "objectID": "calendar.html#course-calendar",
+    "href": "calendar.html#course-calendar",
+    "title": "Calendar",
+    "section": "",
+    "text": "This is an example of embedding a widget with multiple calendars. This might be useful if you want to have different calendars for assignments, exams, instructor office hours, GSI office hours, etc."
+  },
+  {
+    "objectID": "calendar.html#instructions",
+    "href": "calendar.html#instructions",
+    "title": "Calendar",
+    "section": "Instructions",
+    "text": "Instructions\nWe suggest that you delete these instructions before publishing your website.\n\nCreate the Calendars:\n\nGo to Google Calendar.\nOn the left sidebar, click the + sign next to “Other calendars” and select “Create new calendar”.\nCreate your calendars and name them appropriately.\n\nObtain the Embed Code for Each Calendar:\n\nFor each calendar, go to its settings by clicking on the three dots next to the calendar name and selecting “Settings and sharing”.\nIn the calendar settings, scroll down to “Integrate calendar” and copy the embed code provided under “Embed code”.\n\nCombine the Embed Codes:\n\nInstead of copying the entire embed code, you need the calendar’s ID, which is part of the embed URL. It will look something like calendarID@group.calendar.google.com.\nFor example, in the embed URL https://calendar.google.com/calendar/embed?src=calendarID@group.calendar.google.com, calendarID@group.calendar.google.com is the part you need.\n\nCreate a Single Embed Link:\n\nUse the base URL for embedding multiple calendars: https://calendar.google.com/calendar/embed?\nAppend each calendar ID to the base URL using the format &src=calendarID@group.calendar.google.com for each calendar you want to include.\nOptionally, you can customize the appearance by adding parameters (e.g., &color=%23F6BF26 for the color, &ctz=America%2FLos_Angeles for the time zone).\n\nFor example, if you have two calendars with IDs calendar1ID@group.calendar.google.com and calendar2ID@group.calendar.google.com, your combined embed link would look like this:\n\nhttps://calendar.google.com/calendar/embed?src=calendar1ID@group.calendar.google.com&src=calendar2ID@group.calendar.google.com\n\nSubstitute this URL into the src attribute of the calendar’s iframe at the top of this page."
   },
   {
     "objectID": "license.html",
     "href": "license.html",
     "title": "License",
     "section": "",
-    "text": "This work is licensed under a Creative Commons Attribution 4.0 International License.",
+    "text": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International\nThis work is licensed under CC BY-NC-SA 4.0\n\n\n\nShare: copy and redistribute the material in any medium or format.\nAdapt: remix, transform, and build upon the material.\nThe licensor cannot revoke these freedoms as long as you follow the license terms.\n\n\n\n\n\nAttribution: You must give appropriate credit , provide a link to the license, and indicate if changes were made . You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.\nNonCommercial: You may not use the material for commercial purposes.\nShareAlike: If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.\nNo additional restrictions: You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.\n\nFor more information, see CC BY-NC-SA 4.0",
     "crumbs": [
+      "Other",
+      "License"
+    ]
+  },
+  {
+    "objectID": "license.html#cc-by-nc-sa-4.0",
+    "href": "license.html#cc-by-nc-sa-4.0",
+    "title": "License",
+    "section": "",
+    "text": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International\nThis work is licensed under CC BY-NC-SA 4.0\n\n\n\nShare: copy and redistribute the material in any medium or format.\nAdapt: remix, transform, and build upon the material.\nThe licensor cannot revoke these freedoms as long as you follow the license terms.\n\n\n\n\n\nAttribution: You must give appropriate credit , provide a link to the license, and indicate if changes were made . You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.\nNonCommercial: You may not use the material for commercial purposes.\nShareAlike: If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.\nNo additional restrictions: You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.\n\nFor more information, see CC BY-NC-SA 4.0",
+    "crumbs": [
+      "Other",
       "License"
     ]
   },
@@ -44,53 +58,494 @@
     "href": "staff.html",
     "title": "Staff",
     "section": "",
-    "text": "[UNDER CONSTRUCTION]\nOffice hours are subject to change.\n\n\n\nInstructor: Person X x@berkeley.edu Office hours:  - Thursday 3pm-5pm, Evans 309  - Friday 2:00pm-4:30pm, Evans 309\n\n\nGSI: Person Y y@berkeley.edu Office hours: - Monday 11am-12pm, Evans 432 - Tuesday 4pm-5pm, Evans 432 - Wednesday 2pm-3pm, Evans 432 - Friday 12pm-1pm, Evans 432\n\n\nTutor: Person Z z@berkeley.edu Office hours:  - Wednesday 2:30pm - 4:30pm, Evans 434 - Sunday 2pm - 6pm, Zoom\n\n\nTutor: Person W w@berkeley.edu Office hours:  - Wednesday 10am-2pm, Evans 432 - Thursday 3-5pm, Evans 434",
+    "text": "Append @berkeley.edu to all email addresses.\nOffice hours are subject to change.\nYou can attend OH of any staff member.\n\n\n\nInstructor: Gaston Sanchez gastonsanchez Office hours:  - Day hh:mm-hh:mm, Evans 309 - Day hh:mm-hh:mm, Evans 309\n\n\nGSI: Calvin Carter calv2n Office hours: - Day hh:mm-hh:mm, Evans TBD - Day hh:mm-hh:mm, Evans TBD\n\n\nGSI: Huong Vu huong_vu Office hours:  - Day hh:mm-hh:mm, Evans TBD - Day hh:mm-hh:mm, Evans TBD\n\n\nGSI: Dylan Webb dylancw Office hours:  - Day hh:mm-hh:mm, Evans TBD - Day hh:mm-hh:mm, Evans TBD\n\n\nTutor: David Sun davidzhongyisun Office hours:  - Day hh:mm-hh:mm, Evans TBD - Day hh:mm-hh:mm, Evans TBD\n\n\nTutor: Evan Passalacqua evanqua Office hours:  - Day hh:mm-hh:mm, Evans TBD - Day hh:mm-hh:mm, Evans TBD",
     "crumbs": [
+      "Other",
       "Staff"
     ]
   },
   {
-    "objectID": "units/unit3.html",
-    "href": "units/unit3.html",
-    "title": "Unit 3: More",
+    "objectID": "units/unit6.html",
+    "href": "units/unit6.html",
+    "title": "6) Tables and Tidyverse-2",
     "section": "",
-    "text": "[UNDER CONSTRUCTION]\nThis is an example of using qmd as the source document with pdf as one target. I’ve taken out the qmd stuff that doesn’t seem to render to pdf.",
+    "text": "This week we continue with another fundamental tidyverse package \"dplyr\". Simply put, dplyr comes with functions that allow you to manipulate data-tables (e.g. data-frames, and other 2-dimensional objects) using a modern and syntactic way.",
     "crumbs": [
       "Units",
-      "Unit 3: More"
+      "6) Tables and Tidyverse-2"
     ]
   },
   {
-    "objectID": "units/unit3.html#evaluated-python-code-chunk-with-a-plot",
-    "href": "units/unit3.html#evaluated-python-code-chunk-with-a-plot",
-    "title": "Unit 3: More",
-    "section": "Evaluated Python code chunk, with a plot",
-    "text": "Evaluated Python code chunk, with a plot\n\n\nCode\nimport numpy as np\nx = np.random.normal(size=100)\nimport matplotlib.pyplot as plt\nplt.hist(x)\nplt.show()\nnp.mean(x)\n\n\n\n\n\n\n\n\n\nnp.float64(-0.05789182968692552)",
+    "objectID": "units/unit6.html#lecture",
+    "href": "units/unit6.html#lecture",
+    "title": "6) Tables and Tidyverse-2",
+    "section": "",
+    "text": "This week we continue with another fundamental tidyverse package \"dplyr\". Simply put, dplyr comes with functions that allow you to manipulate data-tables (e.g. data-frames, and other 2-dimensional objects) using a modern and syntactic way.",
     "crumbs": [
       "Units",
-      "Unit 3: More"
+      "6) Tables and Tidyverse-2"
     ]
   },
   {
-    "objectID": "units/unit3.html#latex",
-    "href": "units/unit3.html#latex",
-    "title": "Unit 3: More",
-    "section": "LaTeX",
-    "text": "LaTeX\n\\[\n\\theta = \\int_0^\\infty f(x,\\theta)d\\theta\n\\]",
+    "objectID": "units/unit6.html#reading",
+    "href": "units/unit6.html#reading",
+    "title": "6) Tables and Tidyverse-2",
+    "section": "📚 Reading",
+    "text": "📚 Reading\nRead chapters 5 to 10 of “R Tidy Hurricanes”:\n\nhttps://www.gastonsanchez.com/R-tidy-hurricanes/2-02-intro-dplyr.html\nhttps://www.gastonsanchez.com/R-tidy-hurricanes/2-03-intro-pipes.html\nhttps://www.gastonsanchez.com/R-tidy-hurricanes/3-01-storms-year.html\nhttps://www.gastonsanchez.com/R-tidy-hurricanes/3-02-storms-1975.html\nhttps://www.gastonsanchez.com/R-tidy-hurricanes/3-03-amy-1975.html\nhttps://www.gastonsanchez.com/R-tidy-hurricanes/3-04-summary-1975.html",
     "crumbs": [
       "Units",
-      "Unit 3: More"
+      "6) Tables and Tidyverse-2"
     ]
   },
   {
-    "objectID": "units/unit3.html#latex-macro",
-    "href": "units/unit3.html#latex-macro",
-    "title": "Unit 3: More",
-    "section": "LaTeX macro",
-    "text": "LaTeX macro\n\nWarning: having include-before-body in the yaml header of this file, as seemingly needed to enable macros, causes extra space at top of page.\n\n\\[\nA = X \\trans Y\n\\]",
+    "objectID": "units/unit6.html#lab",
+    "href": "units/unit6.html#lab",
+    "title": "6) Tables and Tidyverse-2",
+    "section": "🔬 Lab",
+    "text": "🔬 Lab\nYou will get to practice common manipulation operations of data-tables using a modern and syntactic way following the data plying framework provided by the R package dplyr.\nTime permitting, we’ll also review various aspects that have to do with reading in (i.e. importing) tables in R.",
     "crumbs": [
       "Units",
-      "Unit 3: More"
+      "6) Tables and Tidyverse-2"
+    ]
+  },
+  {
+    "objectID": "units/unit6.html#objectives",
+    "href": "units/unit6.html#objectives",
+    "title": "6) Tables and Tidyverse-2",
+    "section": "🎯 Objectives",
+    "text": "🎯 Objectives\nPerform basic manipulations on data tables with “dplyr” functions:\n\nSelect rows with slice(), and filter()\nSelect columns with select()\nTransform columns with mutate()\nArrange rows with arrange()\nGroup data with group_by()\nSummarize data with summarize()",
+    "crumbs": [
+      "Units",
+      "6) Tables and Tidyverse-2"
+    ]
+  },
+  {
+    "objectID": "units/unit6.html#shiny-friday",
+    "href": "units/unit6.html#shiny-friday",
+    "title": "6) Tables and Tidyverse-2",
+    "section": "🔆 Shiny Friday",
+    "text": "🔆 Shiny Friday\nThe shiny app for this week uses the mtcars data set to visualize the top-n cars given a selected variable.\n\nmtcars-topn-barchart: produces a simple barchart—via \"ggplot2\"—to visualize the top-n cars given a selected variable. In addition to the plot, it also displays a table with the top-n cars. More important, this app uses a so-called reactive conductor element. https://github.com/data133/shiny/tree/main/mtcars-topn-barchart",
+    "crumbs": [
+      "Units",
+      "6) Tables and Tidyverse-2"
+    ]
+  },
+  {
+    "objectID": "units/unit6.html#assignments",
+    "href": "units/unit6.html#assignments",
+    "title": "6) Tables and Tidyverse-2",
+    "section": "🔔 Assignments",
+    "text": "🔔 Assignments\n\nHW4 due this 10/04\nHW5 released on 10/05, due 10/11",
+    "crumbs": [
+      "Units",
+      "6) Tables and Tidyverse-2"
+    ]
+  },
+  {
+    "objectID": "units/unit5.html",
+    "href": "units/unit5.html",
+    "title": "5) Tables and Tidyverse-1",
+    "section": "",
+    "text": "One of the main parts of the course involves working with tabular data, which is the most ubiquitous format in which data is handled. And even if the raw data is not in tabular format, sooner or later, you’ll be dealing with data in tabular format in most Data Analysis Projects.\nThe good news is that there are many tools (e.g. packages & functions) in R to work with tables. Due to time constraints, we will focus only on 2 approaches:\n\nThe “classic” approach which is based on data.frames, the dedicated data object in R to handle tabular data.\nThe “tidyverse” approach which is based on tibbles (a modern data.frame), and provides a rich ecosystem of packages chiefly designed for working with tables.\n\nWe start this week by looking at some important details about data frames, and how to manipulate them from a “classic” approach in R.\nWe are also going to get our feet wet making graphics with the Tidyverse package \"ggplot2\". In particular you’ll learn about the Grammar of Graphics and its central idea: a graphic involves mapping data to geometric objects and their visual attributes. This is the underlying framework behind the mechanics and core functions available in “ggplot2” for creating simple graphics:\n\nBegin your graphic specification with ggplot()\nIndicate where the data comes from\nEstablish which variables are going to be mapped into visual attributes: aes()\nDecide what kind of geometric object(s) will be used to display data; e.g. geom_point()\nOptional: do you need to use facets?\nOptional: do you need to explicitly use one or more statistical transformations?\nOptional: do you need to explicitly set a non-default system of coordinates?\nOptional: do you need to explicitly use a non-default theme of graphical elements?",
+    "crumbs": [
+      "Units",
+      "5) Tables and Tidyverse-1"
+    ]
+  },
+  {
+    "objectID": "units/unit5.html#lecture",
+    "href": "units/unit5.html#lecture",
+    "title": "5) Tables and Tidyverse-1",
+    "section": "",
+    "text": "One of the main parts of the course involves working with tabular data, which is the most ubiquitous format in which data is handled. And even if the raw data is not in tabular format, sooner or later, you’ll be dealing with data in tabular format in most Data Analysis Projects.\nThe good news is that there are many tools (e.g. packages & functions) in R to work with tables. Due to time constraints, we will focus only on 2 approaches:\n\nThe “classic” approach which is based on data.frames, the dedicated data object in R to handle tabular data.\nThe “tidyverse” approach which is based on tibbles (a modern data.frame), and provides a rich ecosystem of packages chiefly designed for working with tables.\n\nWe start this week by looking at some important details about data frames, and how to manipulate them from a “classic” approach in R.\nWe are also going to get our feet wet making graphics with the Tidyverse package \"ggplot2\". In particular you’ll learn about the Grammar of Graphics and its central idea: a graphic involves mapping data to geometric objects and their visual attributes. This is the underlying framework behind the mechanics and core functions available in “ggplot2” for creating simple graphics:\n\nBegin your graphic specification with ggplot()\nIndicate where the data comes from\nEstablish which variables are going to be mapped into visual attributes: aes()\nDecide what kind of geometric object(s) will be used to display data; e.g. geom_point()\nOptional: do you need to use facets?\nOptional: do you need to explicitly use one or more statistical transformations?\nOptional: do you need to explicitly set a non-default system of coordinates?\nOptional: do you need to explicitly use a non-default theme of graphical elements?",
+    "crumbs": [
+      "Units",
+      "5) Tables and Tidyverse-1"
+    ]
+  },
+  {
+    "objectID": "units/unit5.html#reading",
+    "href": "units/unit5.html#reading",
+    "title": "5) Tables and Tidyverse-1",
+    "section": "📚 Reading",
+    "text": "📚 Reading\nRead chapter 9 of “R Coding Basics”:\n\nhttps://www.gastonsanchez.com/R-coding-basics/4-02-data-frames.html\n\nRead chapters 2 and 4 of “R Tidy Hurricanes”:\n\nhttps://www.gastonsanchez.com/R-tidy-hurricanes/1-02-about-hurricanes.html\nhttps://www.gastonsanchez.com/R-tidy-hurricanes/2-01-intro-ggplot.html",
+    "crumbs": [
+      "Units",
+      "5) Tables and Tidyverse-1"
+    ]
+  },
+  {
+    "objectID": "units/unit5.html#lab",
+    "href": "units/unit5.html#lab",
+    "title": "5) Tables and Tidyverse-1",
+    "section": "🔬 Lab",
+    "text": "🔬 Lab\nYou will get introduced to the ggplot2 system for making graphics when data is in tabular format. You will also begin your shiny journey by adapting the default Old Faithful app so that it produces the histogram using \"ggplot2\" functions.",
+    "crumbs": [
+      "Units",
+      "5) Tables and Tidyverse-1"
+    ]
+  },
+  {
+    "objectID": "units/unit5.html#objectives",
+    "href": "units/unit5.html#objectives",
+    "title": "5) Tables and Tidyverse-1",
+    "section": "🎯 Objectives",
+    "text": "🎯 Objectives\nAt the end of this week you will be able to:\n\nExplain how can you manipulate a data frame as a 2-dimensional object\nExplain how to use the dollar $ operator with a data frame\nProvide a simple example for creating a data frame\nGet a first contact with \"ggplot2\"\nDescribe the purpose of the aesthetic mapping function aes()\nDescribe the notion of “layers” and how to use them for making a graphic using “ggplot2”",
+    "crumbs": [
+      "Units",
+      "5) Tables and Tidyverse-1"
+    ]
+  },
+  {
+    "objectID": "units/unit5.html#shiny-friday",
+    "href": "units/unit5.html#shiny-friday",
+    "title": "5) Tables and Tidyverse-1",
+    "section": "🔆 Shiny Friday",
+    "text": "🔆 Shiny Friday\nThe shiny app for this week involves data from NBA players, visualizing some univariate plots with ggplot2.\nWe have two versions:\n\nnba-histograms1-basic: histograms of NBA players’ data, includes a select input to choose the variable to visualize, and a slider input to determine the number of bins in the histogram.  https://github.com/data133/shiny/tree/main/nba-histograms1-basic\nnba-histograms2-facets: same as app1 but this one also includes another select input to decide whether the histograms should be split into facets by either team or player’s position.  https://github.com/data133/shiny/tree/main/nba-histograms2-facets",
+    "crumbs": [
+      "Units",
+      "5) Tables and Tidyverse-1"
+    ]
+  },
+  {
+    "objectID": "units/unit5.html#assignments",
+    "href": "units/unit5.html#assignments",
+    "title": "5) Tables and Tidyverse-1",
+    "section": "🔔 Assignments",
+    "text": "🔔 Assignments\n\nHW3 due this 9/27\nHW4 released on 9/28, due 10/04",
+    "crumbs": [
+      "Units",
+      "5) Tables and Tidyverse-1"
+    ]
+  },
+  {
+    "objectID": "units/unit1.html",
+    "href": "units/unit1.html",
+    "title": "1) Intro",
+    "section": "",
+    "text": "Welcome to Stat 133. Our first meeting is on Wednesday Jan-22 where we begin with the usual review of the course policies, logistics, overall expectations, topics in a nutshell, etc. As for Friday Jan-24 we start with an introduction to R vectors which are the most basic kind of data structure in R.",
+    "crumbs": [
+      "Units",
+      "1) Intro"
+    ]
+  },
+  {
+    "objectID": "units/unit1.html#lecture",
+    "href": "units/unit1.html#lecture",
+    "title": "1) Intro",
+    "section": "",
+    "text": "Welcome to Stat 133. Our first meeting is on Wednesday Jan-22 where we begin with the usual review of the course policies, logistics, overall expectations, topics in a nutshell, etc. As for Friday Jan-24 we start with an introduction to R vectors which are the most basic kind of data structure in R.",
+    "crumbs": [
+      "Units",
+      "1) Intro"
+    ]
+  },
+  {
+    "objectID": "units/unit1.html#lab",
+    "href": "units/unit1.html#lab",
+    "title": "1) Intro",
+    "section": "🔬 Lab",
+    "text": "🔬 Lab\nOn Thursday Jan-23 you’ll get started with R and RStudio: first, we want to make sure everybody has installed both programs; and then we will provide an introductory review of RStudio’s workspace, as well as a brief intro to Quarto notebooks.\nBTW: there’s nothing to submit this week.",
+    "crumbs": [
+      "Units",
+      "1) Intro"
+    ]
+  },
+  {
+    "objectID": "units/unit1.html#activities",
+    "href": "units/unit1.html#activities",
+    "title": "1) Intro",
+    "section": "🔔 Activities",
+    "text": "🔔 Activities\nIf you haven’t yet, please spend some time outside class to review the following documentation:\n\nsyllabus\ncommunication via email\nsome frequently asked questions\nfive things you need to know to pass this class\nintroduction survey (google form)",
+    "crumbs": [
+      "Units",
+      "1) Intro"
+    ]
+  },
+  {
+    "objectID": "units/unit1.html#install-r-rstudio",
+    "href": "units/unit1.html#install-r-rstudio",
+    "title": "1) Intro",
+    "section": "📢 Install R & RStudio",
+    "text": "📢 Install R & RStudio\nFor those of you that don’t have either R or RStudio, download and install these programs (both are free, and they are available for Mac, Windows, and Linux computers)\n\nInstall R\nInstall RStudio (Desktop free version)",
+    "crumbs": [
+      "Units",
+      "1) Intro"
+    ]
+  },
+  {
+    "objectID": "units/unit2.html",
+    "href": "units/unit2.html",
+    "title": "2) R Vectors",
+    "section": "",
+    "text": "This week we describe data types and their implementation as vectors in R (the most fundamental data object in R). As you’ll see, R is—to a large extent—a vector-based language. Pretty much all other data objects are derived from vectors. We’ll focus on important concepts like:\n\nmain data types (“atomic types” in R): logical, integer, real (or double), and character.\ncreation of vectors: various ways and functions to create vectors.\nimplicit coercion rules: what R does when you combine values of different data types.\nvectorization: when R applies calculations or operations to all the elements of a vector (element-wise).\nrecycling: what R does when you perform a calculation with vectors of different length.\nsubsetting (aka subscripting, subindexing, indexing): the use of single/double brackets to subset (i.e. subscript, index) elements of a vector.",
+    "crumbs": [
+      "Units",
+      "2) R Vectors"
+    ]
+  },
+  {
+    "objectID": "units/unit2.html#lecture",
+    "href": "units/unit2.html#lecture",
+    "title": "2) R Vectors",
+    "section": "",
+    "text": "This week we describe data types and their implementation as vectors in R (the most fundamental data object in R). As you’ll see, R is—to a large extent—a vector-based language. Pretty much all other data objects are derived from vectors. We’ll focus on important concepts like:\n\nmain data types (“atomic types” in R): logical, integer, real (or double), and character.\ncreation of vectors: various ways and functions to create vectors.\nimplicit coercion rules: what R does when you combine values of different data types.\nvectorization: when R applies calculations or operations to all the elements of a vector (element-wise).\nrecycling: what R does when you perform a calculation with vectors of different length.\nsubsetting (aka subscripting, subindexing, indexing): the use of single/double brackets to subset (i.e. subscript, index) elements of a vector.",
+    "crumbs": [
+      "Units",
+      "2) R Vectors"
+    ]
+  },
+  {
+    "objectID": "units/unit2.html#reading",
+    "href": "units/unit2.html#reading",
+    "title": "2) R Vectors",
+    "section": "📚 Reading",
+    "text": "📚 Reading\nRead the following chapters that form Part I of “R Coding Basics”:\n\nhttps://www.gastonsanchez.com/R-coding-basics/1-01-vectors-intro.html\nhttps://www.gastonsanchez.com/R-coding-basics/1-02-vectors-properties.html\nhttps://www.gastonsanchez.com/R-coding-basics/1-03-vectors-creation.html\nhttps://www.gastonsanchez.com/R-coding-basics/1-04-vectors-concepts.html",
+    "crumbs": [
+      "Units",
+      "2) R Vectors"
+    ]
+  },
+  {
+    "objectID": "units/unit2.html#lab",
+    "href": "units/unit2.html#lab",
+    "title": "2) R Vectors",
+    "section": "🔬 Lab",
+    "text": "🔬 Lab\nYou’ll practice creating and manipulating vectors in R, and learning about the concepts described above.",
+    "crumbs": [
+      "Units",
+      "2) R Vectors"
+    ]
+  },
+  {
+    "objectID": "units/unit2.html#objectives",
+    "href": "units/unit2.html#objectives",
+    "title": "2) R Vectors",
+    "section": "🎯 Objectives",
+    "text": "🎯 Objectives\nAt the end of this week you will be able to:\n\nDescribe the four common data types in R, and give examples for them\nExplain why R vectors are said to be atomic objects\nDescribe and give an example of the implicit coercion rules\nDescribe and give an example of vectorized code\nDescribe and give an example of the recycling rule\nDescribe and give an example of subsetting (indexing) vectors",
+    "crumbs": [
+      "Units",
+      "2) R Vectors"
+    ]
+  },
+  {
+    "objectID": "units/unit2.html#shiny-friday",
+    "href": "units/unit2.html#shiny-friday",
+    "title": "2) R Vectors",
+    "section": "🔆 Shiny Friday",
+    "text": "🔆 Shiny Friday\nShiny is an open source R package (developed by Posit) that lets you build web applications using R (and RStudio). BTW: If you’ve never seen a shiny app, you can find dozens of examples in a gallery curated by Posit: https://shiny.posit.co/r/gallery/\nDuring the first half of the semester (starting on Sep-6), every Friday lecture I will use a shiny example, describing various aspects about its structure, and reviewing some of its key details. Every week we’ll go over a different shiny app, increasing the level of complexity, but also making it more interactive and richer.\nOur first shiny app involves the app that comes by default in RStudio called Old Faithful. This app is based on the famous geyser Old Faithful located in Yellowstone National Park. In particular, the app uses R’s built-in data set \"faithful\" which contains two variables:\n\neruptions: is the time (in min) of an eruption\nwaiting: is the waiting time (in min) to next eruption\n\nThe app is a very basic app that displays a histogram of the waiting times.\nhttps://github.com/data133/shiny/tree/main/old-faithful1-default",
+    "crumbs": [
+      "Units",
+      "2) R Vectors"
+    ]
+  },
+  {
+    "objectID": "units/unit2.html#activities",
+    "href": "units/unit2.html#activities",
+    "title": "2) R Vectors",
+    "section": "🔔 Activities",
+    "text": "🔔 Activities\nHW1 instructions will be released at the end of this week (due 9/07).",
+    "crumbs": [
+      "Units",
+      "2) R Vectors"
+    ]
+  },
+  {
+    "objectID": "units/unit8.html",
+    "href": "units/unit8.html",
+    "title": "8) Regular Expressions",
+    "section": "",
+    "text": "Why should you learn about character string manipulation and working with text data? Well, because a considerable amount of information and data is precisely in the form of text. And sooner or later (I would say sooner than later) you will have to deal with some kind of string manipulation for your data analysis. So it’s better to be prepared for such tasks and know how to perform them inside the R environment.\nTo unleash the power of string manipulation, we need to take things to the next level and learn about Regular Expressions or regex for short. Namely, regex allows us to describe a certain amount of text called “patterns”. The name “Regular Expression” does not say much. However, regular expressions are all about text.\nRegular expression patterns consist of a combination of alphanumeric characters as well as special characters. A regex pattern can be as simple as a single character, or it can be formed by several characters with a more complex structure. In all cases we construct regular expressions much in the same form in which we construct arithmetic expressions, by using various operators to combine smaller expressions.",
+    "crumbs": [
+      "Units",
+      "8) Regular Expressions"
+    ]
+  },
+  {
+    "objectID": "units/unit8.html#lecture",
+    "href": "units/unit8.html#lecture",
+    "title": "8) Regular Expressions",
+    "section": "",
+    "text": "Why should you learn about character string manipulation and working with text data? Well, because a considerable amount of information and data is precisely in the form of text. And sooner or later (I would say sooner than later) you will have to deal with some kind of string manipulation for your data analysis. So it’s better to be prepared for such tasks and know how to perform them inside the R environment.\nTo unleash the power of string manipulation, we need to take things to the next level and learn about Regular Expressions or regex for short. Namely, regex allows us to describe a certain amount of text called “patterns”. The name “Regular Expression” does not say much. However, regular expressions are all about text.\nRegular expression patterns consist of a combination of alphanumeric characters as well as special characters. A regex pattern can be as simple as a single character, or it can be formed by several characters with a more complex structure. In all cases we construct regular expressions much in the same form in which we construct arithmetic expressions, by using various operators to combine smaller expressions.",
+    "crumbs": [
+      "Units",
+      "8) Regular Expressions"
+    ]
+  },
+  {
+    "objectID": "units/unit8.html#reading",
+    "href": "units/unit8.html#reading",
+    "title": "8) Regular Expressions",
+    "section": "📚 Reading",
+    "text": "📚 Reading\nRead chapters 13 and 14 of “R for Strings”:\n\nhttps://www.gastonsanchez.com/R-for-strings/08-regex-intro.html\nhttps://www.gastonsanchez.com/R-for-strings/09-regex-charsets.html\nhttps://www.gastonsanchez.com/R-for-strings/10-regex-anchors.html\nhttps://www.gastonsanchez.com/R-for-strings/11-regex-quantifiers.html",
+    "crumbs": [
+      "Units",
+      "8) Regular Expressions"
+    ]
+  },
+  {
+    "objectID": "units/unit8.html#lab",
+    "href": "units/unit8.html#lab",
+    "title": "8) Regular Expressions",
+    "section": "🔬 Lab",
+    "text": "🔬 Lab\nThis week you’ll learn how to perform regex operations.",
+    "crumbs": [
+      "Units",
+      "8) Regular Expressions"
+    ]
+  },
+  {
+    "objectID": "units/unit8.html#objectives",
+    "href": "units/unit8.html#objectives",
+    "title": "8) Regular Expressions",
+    "section": "🎯 Objectives",
+    "text": "🎯 Objectives\n\nBeing able to describe what a regular expression is\nExplain what a literal character is\nExplain what a metacharacter is\nGive an example of the wildcard metacharacter “.” (dot)\nGive an example of how to escape a metacharacter\nExplain what a character set is\nExplain what a character range is\nExplain what a POSIX character class is",
+    "crumbs": [
+      "Units",
+      "8) Regular Expressions"
+    ]
+  },
+  {
+    "objectID": "units/unit8.html#assignments",
+    "href": "units/unit8.html#assignments",
+    "title": "8) Regular Expressions",
+    "section": "🔔 Assignments",
+    "text": "🔔 Assignments\n\nHW6 due this 10/18\nShiny App1 released on 10/19, due 11/01",
+    "crumbs": [
+      "Units",
+      "8) Regular Expressions"
+    ]
+  },
+  {
+    "objectID": "units/unit13.html",
+    "href": "units/unit13.html",
+    "title": "13) Web Tech 1",
+    "section": "",
+    "text": "In this last part of the course we look at so-called web technologies for computing with data. To be more specific, we’ll focus on tools that have to do with getting data from the Web.\nThe Web is full of information and sources of data. As it turns out, we can use a wide array of approaches to get data from the Web. For instance, we can simply scrape data from human-readable webpages. Likewise, we can also utilize application programming interfaces (APIs) to request some data sets. Interestingly, the data may come in some XML dialect, the most common one being HTML. But it can also come in a JSON document or some other self-describing format. Consequently, you need to be prepared to deal with data from the Web.",
+    "crumbs": [
+      "Units",
+      "13) Web Tech 1"
+    ]
+  },
+  {
+    "objectID": "units/unit13.html#lecture",
+    "href": "units/unit13.html#lecture",
+    "title": "13) Web Tech 1",
+    "section": "",
+    "text": "In this last part of the course we look at so-called web technologies for computing with data. To be more specific, we’ll focus on tools that have to do with getting data from the Web.\nThe Web is full of information and sources of data. As it turns out, we can use a wide array of approaches to get data from the Web. For instance, we can simply scrape data from human-readable webpages. Likewise, we can also utilize application programming interfaces (APIs) to request some data sets. Interestingly, the data may come in some XML dialect, the most common one being HTML. But it can also come in a JSON document or some other self-describing format. Consequently, you need to be prepared to deal with data from the Web.",
+    "crumbs": [
+      "Units",
+      "13) Web Tech 1"
+    ]
+  },
+  {
+    "objectID": "units/unit13.html#reading",
+    "href": "units/unit13.html#reading",
+    "title": "13) Web Tech 1",
+    "section": "📚 Reading",
+    "text": "📚 Reading\nRead the following chapters from “R Web Technologies”:\n\nhttps://www.gastonsanchez.com/R-web-technologies/json.html\nhttps://www.gastonsanchez.com/R-web-technologies/xml.html\nhttps://www.gastonsanchez.com/R-web-technologies/parsing-xml.html\nhttps://www.gastonsanchez.com/R-web-technologies/xpath.html",
+    "crumbs": [
+      "Units",
+      "13) Web Tech 1"
+    ]
+  },
+  {
+    "objectID": "units/unit13.html#lab",
+    "href": "units/unit13.html#lab",
+    "title": "13) Web Tech 1",
+    "section": "🔬 Lab",
+    "text": "🔬 Lab\n\nPractice with a basic API to get some data.",
+    "crumbs": [
+      "Units",
+      "13) Web Tech 1"
+    ]
+  },
+  {
+    "objectID": "units/unit13.html#objectives",
+    "href": "units/unit13.html#objectives",
+    "title": "13) Web Tech 1",
+    "section": "🎯 Objectives",
+    "text": "🎯 Objectives\n\nDescribe what an API is.\nUnderstand JSON sytnax\n\ndata types\njson arrays\njson objects",
+    "crumbs": [
+      "Units",
+      "13) Web Tech 1"
+    ]
+  },
+  {
+    "objectID": "units/unit13.html#assignments",
+    "href": "units/unit13.html#assignments",
+    "title": "13) Web Tech 1",
+    "section": "🔔 Assignments",
+    "text": "🔔 Assignments\n\nStart working on your App3, due on 12/06",
+    "crumbs": [
+      "Units",
+      "13) Web Tech 1"
+    ]
+  },
+  {
+    "objectID": "units/unit10.html",
+    "href": "units/unit10.html",
+    "title": "10) Text Mining 2",
+    "section": "",
+    "text": "One popular topic in text mining involves Sentiment Analysis (aka Sentiment Scoring). Simply put, sentiment analysis is the process of extracting an author’s emotional intent from text. At first glance, sentiment analysis may appear easy. But as we will see, this type of analysis is tricky to do well. There are various emotional frameworks that can be used for sentiment analysis. We will cover a simple approach that implies stating whether a document is positive, negative, or neutral. This is referred to as the polarity of a document.",
+    "crumbs": [
+      "Units",
+      "10) Text Mining 2"
+    ]
+  },
+  {
+    "objectID": "units/unit10.html#lecture",
+    "href": "units/unit10.html#lecture",
+    "title": "10) Text Mining 2",
+    "section": "",
+    "text": "One popular topic in text mining involves Sentiment Analysis (aka Sentiment Scoring). Simply put, sentiment analysis is the process of extracting an author’s emotional intent from text. At first glance, sentiment analysis may appear easy. But as we will see, this type of analysis is tricky to do well. There are various emotional frameworks that can be used for sentiment analysis. We will cover a simple approach that implies stating whether a document is positive, negative, or neutral. This is referred to as the polarity of a document.",
+    "crumbs": [
+      "Units",
+      "10) Text Mining 2"
+    ]
+  },
+  {
+    "objectID": "units/unit10.html#reading",
+    "href": "units/unit10.html#reading",
+    "title": "10) Text Mining 2",
+    "section": "📚 Reading",
+    "text": "📚 Reading\nRead chapters 1, 2 and 4 of “Text Mining with R” (by Julia Silge and David Robinson):\n\nhttps://www.tidytextmining.com/sentiment",
+    "crumbs": [
+      "Units",
+      "10) Text Mining 2"
+    ]
+  },
+  {
+    "objectID": "units/unit10.html#lab",
+    "href": "units/unit10.html#lab",
+    "title": "10) Text Mining 2",
+    "section": "🔬 Lab",
+    "text": "🔬 Lab\n\nGetting started with the \"tidytext\" package.",
+    "crumbs": [
+      "Units",
+      "10) Text Mining 2"
+    ]
+  },
+  {
+    "objectID": "units/unit10.html#objectives",
+    "href": "units/unit10.html#objectives",
+    "title": "10) Text Mining 2",
+    "section": "🎯 Objectives",
+    "text": "🎯 Objectives\n\nDefine sentiment analysis.\nDescribe a basic polarity scoring algorithm.\nCompute basic sentiments (positive, negative, neutral) of a text.",
+    "crumbs": [
+      "Units",
+      "10) Text Mining 2"
+    ]
+  },
+  {
+    "objectID": "units/unit10.html#assignments",
+    "href": "units/unit10.html#assignments",
+    "title": "10) Text Mining 2",
+    "section": "🔔 Assignments",
+    "text": "🔔 Assignments\n\nShiny App1, due 11/01\nShiny App2 released on 11/02, due 11/14",
+    "crumbs": [
+      "Units",
+      "10) Text Mining 2"
     ]
   },
   {
@@ -101,11 +556,220 @@
     "text": "\\[\n\\newcommand{\\trans}{^\\mathsf{T}}\n\\newcommand{\\eps}{\\epsilon}\n\\]"
   },
   {
+    "objectID": "faqs.html",
+    "href": "faqs.html",
+    "title": "Some Frequently Asked Questions",
+    "section": "",
+    "text": "Will STAT 133 be offered in hybrid mode (both in-person and remotely, simultaneously)?  No, STAT 133 will not be offered in hybrid mode. Instead, all classes and sections are to be delivered in-person. If you have time conflicts with lecture and/or section, please don’t take STAT 133 this semester.\n\nWill there be live webcast or recordings of lectures?  Unless Campus authorities decide to switch to remote instruction, there won’t be live webcast or live zoom recordings. With that said, lectures may be recorded for archival purposes, but not necessarily be shared with the class.\n\nDo you have a Covid (or other illness) policy?  Maintaining your health and that of the Berkeley community is of primary importance to course staff, so if you are feeling ill or have been exposed to illness, please do not come to class. All of the materials used in class will be posted either in this website or in bCourses. Likewise, you’re encouraged to reach out to fellow students to discuss the class materials or stop by office hours to chat with the GSI, the tutor, or the instructor.\nHaving said that, we expect you to attend lecture and lab. Past experience tells us that students who constantly miss lecture/lab tend to have a mediocre performance.\nAlso, missing lecture/lab does not give you the right to use OH as a replacement for receiving instruction. We are always willing to help you understand the learning materials during OH, but this also requires that you make an honest effort reviewing them before coming to OH.\n\nI am a concurrent student. What are my chances of enrolling in the class?  Depending on the size of the waitlist, and the available space in the labs, you may or may not have a chance to join the class. For example, there have been semesters in which only 10% of concurrent applications have been accepted. Likewise, there have been semesters in which 100% of concurrent applications have been accepted.\nKeep in mind that the approval process for concurrent enrollment students takes place between the 2nd and 3rd week of instruction, and it is a somewhat slow 2-step process, which takes some days, and it involves not only my intervention but also the participation of one of the advisors in the Dept. of Statistics.\n\nI am a grad student officially enrolled. Do you have a grading structure for grad students?  This semester we don’t have a special grading structure for graduate students. All students will be evaluated with the same criteria. See the course syllabus for more information about the grading structure.\n\nWhat if I join the class late?  If you join the class within the first two weeks, read the syllabus and lecture notes, take a look at bCourses to get a sense of any assignments that may have already passed, and visit office hours to check that you’re up to date with things.\nAfter two weeks into the semester, you’ll have too much material that you’ll need to make up, so you will have to wait to a subsequent semester to take STAT 133.\n\nAre time conflicts allowed?  STAT 133 does not allow students to enroll with time conflicts.\n\nI would like to switch lab sections with other student. Is this possible?  This is not possible. You should attend the lab section you are officially enrolled in.\n\nIs this course a good fit if I don’t have any programming experience?  Quick answer: yes. Because Stat 133 has no prerequisites, we actually expect that many of you come without any coding experience. It is nice to have some programming experience under your belt, which makes the learning curve less steep. Having said that, if this is your first time coding, you should expect to spend a great amount of time doing work outside class (and also deal with the inevitable frustration that comes when learning any language).\n\nIs this course a good fit if I don’t have any data analysis experience?  Yes. Because STAT 133 has no prerequisites, we actually expect that most of you come without any data analysis experience. In this course you will be working with a variety of fairly simple real data sets, as well as with simulated data.\n\nIs this course a good fit if I’ve already taken several programming courses?  You may find some parts of this course somewhat slow (and boring?) in terms of basics concepts such as data types, data structures, conditionals, loops, and functions. Unless Stat 133 is a required course for your major/minor (or you are eager to learn about R), please consider taking more advanced courses if what you are interested in is algorithms, computational statistics, databases, machine learning and statistical learning.\n\nIs this course a good fit if I don’t intend to major in Statistics?  STAT 133 is one of the core courses of the Statistics Major. The way I’ve been teaching this course is having Statistics majors as my target audience. However, much of the content should be helpful for any student who has to analyze data, or for those majors with some sort of data-analysis concentration.\n\nWhat if I want to declare Statistics as my major, but I already have taken other programming courses on Campus?  You may need to talk to a student advisor for more information about this. In 2019, students that took Data 100 (e.g. C100) “Principles & Techniques of Data Science”, were able to waive Stat 133 by just taking Stat 33B “Introduction to Advanced Programming in R”. Please contact your advisor to know if this option is still available.\n\nIs this course a good fit to become a data scientist?  Becoming a data scientist is not a (one-semester) sprint. It is a (years-long) marathon. Like any other profession, it takes many years of learning, practice, practice, practice, and then some practice, to become a proficient data scientist/analyst. This course can be very useful, and we are confident it will help you to build a good foundation in your DS career.\n\nWhat if I don’t want to be a data scientist?  That’s perfect too. You don’t need to be a data scientist aspirant to take this course. Whether your plans are to become a consultant, life scientist, social scientist, journalist, or get some analytic skills, this course should be a good choice.\n\nWhy is R (and not python) the main computational tool used in Stat 133?  Historically, STAT 133 has always been taught with R, and this semester is no exception. Personally, I believe that both R and python are great tools, and it is a good idea that you learn both of them (especially if you are interested in Data Science, analytics, etc). STAT 133 gives you the opportunity to learn a fair amount of R. Quoting Hadley Wickham:\n\n“Generally, there are a lot of people who talk about R versus Python like it’s a war that either R or Python is going to win. I think that is not helpful because it is not actually a battle. These things exist independently and are both awesome in different ways”.\n\nOn a side note, Ross Ihaka, one of the creators of R, obtained his PhD at UC Berkeley (in the Dept. of Statistics), so it is no coincidence that we are heavily influenced by R.\n\nAre we going to learn about machine learning methods?  The Statistics department offers a dedicated course on this topic: STAT 154: Modern Statistical Prediction and Machine Learning. There is also CS 189: Introduction to Machine Learning offered through Electrical Engineering and Computer Sciences (EECS). Similarly, DATA 100: Principles and Techniques of Data Science covers several machine learning concepts.\n\nAre we going to learn about databases?  If you are interested in Databases you should consider CS 186: Introduction to Database Systems offered through Electrical Engineering and Computer Sciences (EECS).\n\nAre we going to learn about linear models?  The Statistics department offers a dedicated course on this topic: STAT 151A: Linear Modeling, Theory and Applications.\n\nAre we going to learn about introductory statistics and/or probability?  The Statistics department offers two core courses on these topics: STAT 134: Concepts of Probability, and STAT 135: Concepts of Statistics.\n\nAre we going to learn about Reproducible Research (RR)?  We are just going to scratch the surface. We will touch on dynamic documents, and some practices and tools that are useful in RR.\n\nCan we work in groups?  Yes, absolutely. We strongly encourage you to not work alone. Well, let me rephrase that. You should try to first work on your own (trial and error). Take notes of the things you don’t understand. Then get with other people and discuss ideas, share tips (but not the entire solution).\n\nAren’t you suppose to teach us?  Yes. But you don’t learn programming by watching someone else program. The same way that you don’t learn to swim by simply watching someone else swimming. You have to get into the pool, and do all the drills your instructor says. This is a very hands-on course, and you will be required to do a great amount of work on your own.\n\nWhat if I don’t agree with all the course policies?  If there is one or more policies you don’t agree with, then please reconsider your enrollment in the course. I am assuming that all students completely agree with the course policies described in the Syllabus.\n\nCan I ask you to write me a Letter of Recommendation (LoR)?  Please take a look at this document before asking me to write you a letter of recommendation: https://github.com/gastonstat/letter-of-rec.\n\nI invited you to join my network in LinkedIn. Why haven’t you accepted my invitation?  First: Don’t take it personal. It’s not you, it’s me. Second: if you really want that I become part of your network, why don’t you talk to me in person? We can meet in OH, or you can also schedule a meeting at a different time. Let me know you better than just as a distant contact in a social media networking site.\n\nDo you have research projects open to undergrad students?  Lecturing takes most of my time and I don’t have a lab. Sometimes, however, I may look for collaborators to create some data-based project. This typically happens in the Summer.",
+    "crumbs": [
+      "Other",
+      "FAQs"
+    ]
+  },
+  {
+    "objectID": "ed-netiquette.html",
+    "href": "ed-netiquette.html",
+    "title": "Ed-Discussion Netiquette",
+    "section": "",
+    "text": "Unfortunately, we just don’t have enough human resources to have a dedicated Ed-Discussion moderator. We will do our best to monitor this tool once per day from Monday to Friday. Please note that we may not be able to monitor Ed during the evening nor weekend. That’s why we strongly encourage student participation on Ed-Discussion rather than answering right away (i.e. we want other students step up and answer questions).\nIn the past, some students have decided to use external discussion forums. When used responsibly and appropriately, we think that’s a great idea. But we have never endorsed their use, nor we have monitored, moderated or managed them, and we won’t do that this time.\nIn order to make Ed-Discussion a better resource for everyone, we’ve outlined some guidelines for you to follow when posting on this tool. Questions which follow these guidelines tend to have a higher chance of being answered!\n\nPlease adhere to the same standards of behavior online that you follow in real life.\nWe want to make sure that you are helping each other out, and having instructors give away the answers isn’t the most beneficial for your education either.",
+    "crumbs": [
+      "Other",
+      "Ed Netiquette"
+    ]
+  },
+  {
+    "objectID": "ed-netiquette.html#important-note",
+    "href": "ed-netiquette.html#important-note",
+    "title": "Ed-Discussion Netiquette",
+    "section": "",
+    "text": "Unfortunately, we just don’t have enough human resources to have a dedicated Ed-Discussion moderator. We will do our best to monitor this tool once per day from Monday to Friday. Please note that we may not be able to monitor Ed during the evening nor weekend. That’s why we strongly encourage student participation on Ed-Discussion rather than answering right away (i.e. we want other students step up and answer questions).\nIn the past, some students have decided to use external discussion forums. When used responsibly and appropriately, we think that’s a great idea. But we have never endorsed their use, nor we have monitored, moderated or managed them, and we won’t do that this time.\nIn order to make Ed-Discussion a better resource for everyone, we’ve outlined some guidelines for you to follow when posting on this tool. Questions which follow these guidelines tend to have a higher chance of being answered!\n\nPlease adhere to the same standards of behavior online that you follow in real life.\nWe want to make sure that you are helping each other out, and having instructors give away the answers isn’t the most beneficial for your education either.",
+    "crumbs": [
+      "Other",
+      "Ed Netiquette"
+    ]
+  },
+  {
+    "objectID": "ed-netiquette.html#keep-in-mind-common-rules-of-netiquette",
+    "href": "ed-netiquette.html#keep-in-mind-common-rules-of-netiquette",
+    "title": "Ed-Discussion Netiquette",
+    "section": "Keep in mind common rules of netiquette",
+    "text": "Keep in mind common rules of netiquette\n\nDon’t post irrelevant links, comments, thoughts or pictures.\nDon’t type in ALL CAPS! If you do it will look like you are screaming.\nDon’t write anything that sounds angry or sarcastic even as a joke, because without hearing your tone of voice, your peers might not realize you’re joking.\nAlways remember to say “please” and “thank you” when soliciting help from your classmates.\nRespect the opinion of your classmates. If you feel the need to disagree, do so respectfully and acknowledge the valid points in your classmate’s argument.\nRefrain from personal abuse. Don’t badmouth others or call them offensive words. You may express robust disagreement with what someone says, but don’t call them names.\nBe forgiving. If your classmate makes a mistake, don’t badger him or her for it. Just let it go.\nIf you reply to a question from a classmate, make sure your answer is accurate.\nBe brief. If you write a long dissertation in response to a simple question, it’s unlikely that anyone will spend the time to read through it all.\nRemember that your public posts are not anonymous. They can be read by your classmates.\nDon’t expect other people to do your homework for you. If you’re looking for technical help, for example, don’t ask questions you could easily answer yourself by reading the manual or help documentation provided with the software tools used in this course.",
+    "crumbs": [
+      "Other",
+      "Ed Netiquette"
+    ]
+  },
+  {
+    "objectID": "ed-netiquette.html#ask-lab-and-hw-questions-only-in-the-designated-lab-and-hw-posts",
+    "href": "ed-netiquette.html#ask-lab-and-hw-questions-only-in-the-designated-lab-and-hw-posts",
+    "title": "Ed-Discussion Netiquette",
+    "section": "Ask Lab and HW questions only in the designated Lab and HW posts",
+    "text": "Ask Lab and HW questions only in the designated Lab and HW posts\nWe’ve created individual posts for each type of assignment. Please ask questions, discuss problems, or help out in those posts only. Before asking a question, read through (or search) the whole thread to see if your question has been answered. Likewise, stay on topic.",
+    "crumbs": [
+      "Other",
+      "Ed Netiquette"
+    ]
+  },
+  {
+    "objectID": "ed-netiquette.html#do-not-post-answers-in-discussion-forums",
+    "href": "ed-netiquette.html#do-not-post-answers-in-discussion-forums",
+    "title": "Ed-Discussion Netiquette",
+    "section": "Do NOT post answers in discussion forums",
+    "text": "Do NOT post answers in discussion forums\nPlease don’t give away the answer on any discussion forum. You can explain things in a way that still lets other students figure out the essence of the problem on their own, but don’t spoil the problem. For example, don’t point to a useful stackoverflow or YouTube link that works out essentially what the problem is asking about.\nThat is not cool.\nPost such spoilers after the HW is due. That is totally fine. If you are not sure, post privately to instructors and then we’ll let you know.",
+    "crumbs": [
+      "Other",
+      "Ed Netiquette"
+    ]
+  },
+  {
+    "objectID": "ed-netiquette.html#ask-questions-about-assignments-only",
+    "href": "ed-netiquette.html#ask-questions-about-assignments-only",
+    "title": "Ed-Discussion Netiquette",
+    "section": "Ask questions about assignments only",
+    "text": "Ask questions about assignments only\nIf you have questions, comments, or other concerns that are not related to assignments, please email your GSI or the instructor. We want to keep the focus of bCourses tools for assignments in Stat 133.",
+    "crumbs": [
+      "Other",
+      "Ed Netiquette"
+    ]
+  },
+  {
+    "objectID": "ed-netiquette.html#try-to-make-posts-public",
+    "href": "ed-netiquette.html#try-to-make-posts-public",
+    "title": "Ed-Discussion Netiquette",
+    "section": "Try to make posts public",
+    "text": "Try to make posts public\nWhile not violating the preceding rules, try to make your questions public, because others might have the same question and we don’t need to answer them multiple times.",
+    "crumbs": [
+      "Other",
+      "Ed Netiquette"
+    ]
+  },
+  {
+    "objectID": "ed-netiquette.html#minute-test",
+    "href": "ed-netiquette.html#minute-test",
+    "title": "Ed-Discussion Netiquette",
+    "section": "3 minute-test",
+    "text": "3 minute-test\nIf you think your questions may take more than 3 or 5 minutes to answer, please come to office hours, or try to schedule a zoom meeting with the teaching staff.",
+    "crumbs": [
+      "Other",
+      "Ed Netiquette"
+    ]
+  },
+  {
+    "objectID": "ed-netiquette.html#we-are-not-pre-grading",
+    "href": "ed-netiquette.html#we-are-not-pre-grading",
+    "title": "Ed-Discussion Netiquette",
+    "section": "We are not pre-grading",
+    "text": "We are not pre-grading\nPlease do not post questions of the form:\n\n“Is this the correct solution to HW X problem Y?”\n“Would this receive full credit on HW X problem Y?”\n“Is this the right level of detail for HW X problem Y?”\n\nPlease do not ask instructors to check your homework in advance. We simply cannot check every student’s homework.\nFeel free to ask questions of clarification about a certain HW problem, or ask questions about the course content to achieve a deeper understanding, but at a certain point, you must apply your knowledge, give it your best shot, and submit your answers with confidence.",
+    "crumbs": [
+      "Other",
+      "Ed Netiquette"
+    ]
+  },
+  {
+    "objectID": "ed-netiquette.html#post-a-screenshot-of-any-resource-referenced",
+    "href": "ed-netiquette.html#post-a-screenshot-of-any-resource-referenced",
+    "title": "Ed-Discussion Netiquette",
+    "section": "Post a screenshot of any resource referenced",
+    "text": "Post a screenshot of any resource referenced\nYour question should be self-contained. The GSIs (and other responders) should not have to scan through PDFs or scripts to even figure out what the question is. Ask yourself: am I referring to some lecture /HW solution/discussion solution/etc?\nIf the answer is yes, post a screenshot of the relevant part. This can include your handwritten notes from the relevant lecture.",
+    "crumbs": [
+      "Other",
+      "Ed Netiquette"
+    ]
+  },
+  {
+    "objectID": "ed-netiquette.html#post-all-your-work",
+    "href": "ed-netiquette.html#post-all-your-work",
+    "title": "Ed-Discussion Netiquette",
+    "section": "Post all your work",
+    "text": "Post all your work\nDon’t post one line saying:\n\n“At step n, I get XYZ, and I’m now confused.”\nThis forces the GSIs to guess:\nWhat happened in steps 1, 2, …, n - 1?\n\nMost likely, the GSIs will guess wrong, and we run into a mess of followup questions trying to figure out what steps 1, 2, …, n - 1 were.\nInstead, post:\n\nStarting out, we have: ….\nThen, I do …, and I get …\nNext, I do …, and I get …\nNext, I do …, and I get …\nNow, I get $&%&#(, and this makes no sense.\nThen, the GSI can respond:\nThe mistake is at step 3, you’re not allowed to apply ABC to XYZ because …\n\nIn summary, when you do ask for help, include details of what attempts you’ve made to solve the problem. It will save time and also show people that you are making an effort to help yourself.\n\nWe reserve the right to delete any posts\nWe reserve the right to delete, move, or edit any posts, and even to make Ed-Discussion inactive, at any time, without previous notice.\nDiscussion resources can be a great tools if used appropriately, respectfully, and wisely. Take advantage of Ed, and make the most out of it.",
+    "crumbs": [
+      "Other",
+      "Ed Netiquette"
+    ]
+  },
+  {
+    "objectID": "email.html",
+    "href": "email.html",
+    "title": "Communication via Email",
+    "section": "",
+    "text": "Email: gastonsanchez@berkeley.edu\nYou should limit your emails to serious problems that cannot be addressed during office hours. The vast majority of questions can be answered during OH. Email should not be used for information that is readily available in course materials (syllabus, discussion forum, announcements, etc.) or from fellow students.\nI do not explain course material over email and will not respond to emails with such requests. Please use office hours, or discussion section, (or schedule another time to meet with the teaching staff if you have irreconcilable conflicts with the office hours).",
+    "crumbs": [
+      "Other",
+      "Email"
+    ]
+  },
+  {
+    "objectID": "email.html#reading-and-responding-email",
+    "href": "email.html#reading-and-responding-email",
+    "title": "Communication via Email",
+    "section": "Reading and responding email",
+    "text": "Reading and responding email\nFor general emails, I will reply to general questions or concerns within 2 to 3 business days, Monday through Friday, during regular academic hours (9:00AM-5:00PM).\nPlease note that I do not read email between 5pm and 9am, or during the weekends. Likewise, I do not respond to emails on the weekend.\nex. If you send an email at 6pm on Friday night, you can expect that I will read it around 9am on Monday morning, and should likely receive a response by around 9am on Tuesday morning.\nIf, for any reason, I haven’t responded to your email after four business days, please email me again. I am human, and there are times when student emails fall through the cracks inadvertently.\nI prefer to have conversations in person rather than via email, thus allowing us to get to know each other better and fostering a more collegial learning atmosphere.",
+    "crumbs": [
+      "Other",
+      "Email"
+    ]
+  },
+  {
+    "objectID": "email.html#communicate-in-a-professional-manner",
+    "href": "email.html#communicate-in-a-professional-manner",
+    "title": "Communication via Email",
+    "section": "Communicate in a professional manner",
+    "text": "Communicate in a professional manner\nIf you believe your situation warrants an email, please feel free to send me a professional email. E-mail communication should be courteous and respectful in manner and tone. Please do not send e-mails that are curt or demanding.\nHere’s a short example of an unprofessional email. Let’s assume you missed an exam, for whatever reason. Do not write and say: “I missed an exam. When can I make it up?” Instead, explain why you have extenuating circumstances, and ask the teaching staff if they will allow you to make up the exam. Most likely you won’t be able to make it up, but at least you are asking in a professional way.\nIf you are unsure of how to write an email to me or any other professor, please consult this amusing blog post that gives you a useful template:\nhttps://medium.com/@lportwoodstacer/how-to-email-your-professor-without-being-annoying-af-cf64ae0e4087",
+    "crumbs": [
+      "Other",
+      "Email"
+    ]
+  },
+  {
+    "objectID": "email.html#subject-line",
+    "href": "email.html#subject-line",
+    "title": "Communication via Email",
+    "section": "Subject line",
+    "text": "Subject line\nIf you wish for your email to make it into my inbox, do not leave the subject line blank. Instead, make sure the subject of your email contains the code course and a brief explanation of the nature of the email. For example: “Stat 133-Question about Homework” or “Stat 133-Request for Meeting”.",
+    "crumbs": [
+      "Other",
+      "Email"
+    ]
+  },
+  {
+    "objectID": "email.html#avoid-these-subjects",
+    "href": "email.html#avoid-these-subjects",
+    "title": "Communication via Email",
+    "section": "Avoid these subjects",
+    "text": "Avoid these subjects\n\nAvoid emailing me to explain why you missed or will miss class. I usually don’t need to know. If you think this is affecting your performance, then schedule a meeting with me.\nDo not email me to let me know you made a mistake in your submitted assignment. Please refer to the HW policies (see syllabus).\nDo not email me to ask for extra credit. Here’s why: https://marktomforde.com/academic/undergraduates/NoExtraCredit.html\nAbove all, do not email me to engage in grade grubbing. Here’s why: https://marktomforde.com/academic/undergraduates/GradeGrubbing.html",
+    "crumbs": [
+      "Other",
+      "Email"
+    ]
+  },
+  {
+    "objectID": "email.html#scheduling-a-meeting",
+    "href": "email.html#scheduling-a-meeting",
+    "title": "Communication via Email",
+    "section": "Scheduling a meeting",
+    "text": "Scheduling a meeting\nIf you wish to schedule a meeting with me, your message should include at least two times when you would like to meet and a brief (one-two sentence) description of the reason for the meeting.",
+    "crumbs": [
+      "Other",
+      "Email"
+    ]
+  },
+  {
+    "objectID": "email.html#emails-regarding-letters-of-recommendation",
+    "href": "email.html#emails-regarding-letters-of-recommendation",
+    "title": "Communication via Email",
+    "section": "Emails regarding letters of recommendation",
+    "text": "Emails regarding letters of recommendation\nBefore you ask me to write you a letter of recommendation, please take a look at the following document: https://github.com/gastonstat/letter-of-rec",
+    "crumbs": [
+      "Other",
+      "Email"
+    ]
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Statistics 133: Concepts in Computing with Data",
     "section": "",
-    "text": "Ed\n\n  DataHub\n\n  Gradescope\n\n  bCourses\n\n\nNo matching items\n[UNDER CONSTRUCTION]",
+    "text": "bCourses\n\n  Ed\n\n  R-DataHub\n\n\nNo matching items",
     "crumbs": [
       "Home / Schedule"
     ]
@@ -114,131 +778,535 @@
     "objectID": "index.html#schedule",
     "href": "index.html#schedule",
     "title": "Statistics 133: Concepts in Computing with Data",
-    "section": "Schedule",
-    "text": "Schedule\nHere we use Quarto’s EJS templating.\n\n\n\n   Week 1\n\n   \n   \n   \n   \n   \n   \n\n        \n\n           \n           \n           \n           \n           \n           Aug 23:\n           \n           \n              Lecture 1 Introduction\n           \n           \n                \n                \n                  \n                    Note 1\n                  \n                  \n                  \n                    Note 2\n                  \n                  \n                \n           \n                \n           \n        \n\n           \n           \n           \n           \n           \n           \n              Participation 1 Lecture Participation 1\n           \n           \n                \n           \n                \n           \n        \n   \n\n        \n\n           \n           \n           \n           \n           \n           Aug 25:\n           \n           \n              Lecture 2 Next\n           \n           \n                \n                \n                  \n                    Note 1\n                  \n                  \n                  \n                    Note 2\n                  \n                  \n                \n           \n                \n           \n        \n\n           \n           \n           \n           \n           \n           \n              Homework 1A Plotting and Permutation Test (due Aug 31)\n           \n           \n                \n           \n                \n           \n        \n\n           \n           \n           \n           \n           \n           \n              Homework 1B Prerequisite Math (due Aug 31)\n           \n           \n                \n           \n                \n           \n        \n   \n   \n   \n  \n\n   Week 2\n\n   \n   \n   \n   \n   \n   \n\n        \n\n           \n           \n           \n           \n           \n           Aug 29:\n           \n           \n              Lecture 3 Pandas 1\n           \n           \n                \n           \n                \n           \n        \n\n           \n           \n           \n           \n           \n           \n              Participation 2 Lecture Participation 2\n           \n           \n                \n                \n                  \n                    Note 3\n                  \n                  \n                \n           \n                \n           \n        \n   \n   \n   \n  \n\n\nNo matching items",
+    "section": "Schedule 📅",
+    "text": "Schedule 📅\nTentative calendar subject to change.\n\n\n   Week 1\n\n   \n   \n   \n   \n   \n     \n  \n          \n  \n  \n  \n             \n             \n             About\n             \n             \n               Overview  Unit 1: Introduction\n             \n             \n                \n             \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Jan 22\n             \n             \n               Lecture  Welcome to Stat 133 (slides)\n             \n             \n                \n             \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Jan 23\n             \n             \n               Labwork  Lab 1: Intro to R and RStudio\n             \n             \n                \n             \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Jan 24\n             \n             \n               Lecture  R Housekeeping (notes)\n             \n             \n               Slides\n              \n             \n                \n             \n                  \n             \n          \n     \n     \n  \n   \n  \n\n   Week 2\n\n   \n   \n   \n   \n   \n     \n  \n          \n  \n  \n  \n             \n             \n             About\n             \n             \n               Overview  Unit 2: R Vectors\n             \n             \n                \n             \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Jan 27\n             \n             \n               Lecture  Vectors, part 1 (notes)\n             \n             \n               Slides\n              \n             \n               Demo\n              \n                  \n             \n          \n  \n  \n  \n             \n             \n             \n               Lectur2  Vectors, part 2 (notes)\n             \n             \n                \n             \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Jan 29\n             \n             \n               Lecture  Vectors, part 3 (notes)\n             \n             \n               Slides\n              \n             \n               Demo\n              \n                  \n             \n          \n  \n  \n  \n             \n             \n             \n               Lectur2  Vectors, part 4 (notes)\n             \n             \n                \n             \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Jan 30\n             \n             \n               Labwork  Lab 2: Vectors  (due 1/31)\n             \n             \n                \n             \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Jan 31\n             \n             \n               Shiny  Shiny Friday: Old Faithful (default app)\n             \n             \n               Slides\n              \n             \n                \n             \n                  \n             \n          \n  \n  \n  \n             \n             \n             \n               Homework  HW 1: Vectors (avail 2/01, due 2/07)\n             \n             \n                \n             \n             \n                \n             \n                  \n             \n          \n     \n     \n  \n   \n  \n\n   Week 3\n\n   \n   \n   \n   \n   \n     \n  \n          \n  \n  \n  \n             \n             \n             About\n             \n             \n               Overview  Unit 3: R Matrices and Lists\n             \n             \n                \n             \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Feb 3\n             \n             \n               Lecture  Matrices, part 1 (notes)\n             \n             \n               Slides\n              \n             \n               Demo\n              \n                  \n             \n          \n  \n  \n  \n             \n             \n             \n               Lectur2  Matrices, part 2 (notes)\n             \n             \n                \n             \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Feb 5\n             \n             \n               Lecture  Lists (notes)\n             \n             \n               Slides\n              \n             \n               Demo\n              \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Feb 6\n             \n             \n               Labwork  Lab 3: Lists and Matrices (due 2/07)\n             \n             \n                \n             \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Feb 7\n             \n             \n               Shiny  Shiny Friday: Future Value\n             \n             \n               Slides\n              \n             \n                \n             \n                  \n             \n          \n  \n  \n  \n             \n             \n             \n               Homework  HW 2: Lists & Matrices (avail 2/08, due 2/14)\n             \n             \n                \n             \n             \n                \n             \n                  \n             \n          \n     \n     \n  \n   \n  \n\n   Week 4\n\n   \n   \n   \n   \n   \n     \n  \n          \n  \n  \n  \n             \n             \n             About\n             \n             \n               Overview  Unit 4: Simple Functions and Conditionals\n             \n             \n                \n             \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Feb 10\n             \n             \n               Lecture  Intro to Functions (notes)\n             \n             \n               Slides\n              \n             \n               Demo\n              \n                  \n             \n          \n  \n  \n  \n             \n             \n             \n               Lectur2  R Compound Expressions (notes)\n             \n             \n                \n             \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Feb 12\n             \n             \n               Lecture  If-else statements (notes)\n             \n             \n               Slides\n              \n             \n               Demo\n              \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Feb 13\n             \n             \n               Labwork  Lab 4: Functions and If-else (due 2/14)\n             \n             \n                \n             \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Feb 14\n             \n             \n               Shiny  Shiny Friday: Old Faithful revisited\n             \n             \n                \n             \n             \n                \n             \n                  \n             \n          \n  \n  \n  \n             \n             \n             \n               Homework  HW 3: Functions (avail 2/15, due 2/21)\n             \n             \n                \n             \n             \n                \n             \n                  \n             \n          \n     \n     \n  \n   \n  \n\n   Week 5\n\n   \n   \n   \n   \n   \n     \n  \n          \n  \n  \n  \n             \n             \n             About\n             \n             \n               Overview  Unit 5: Tables and Tidyverse (part 1)\n             \n             \n                \n             \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Feb 17\n             \n             \n               Lecture  Academic Holiday (no class)\n             \n             \n                \n             \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Feb 19\n             \n             \n               Lecture  Graphics with ggplot2 (notes)\n             \n             \n               Slides\n              \n             \n               Demo\n              \n                  \n             \n          \n  \n  \n  \n             \n             \n             \n               Lectur2  More graphics with ggplot2 (notes)\n             \n             \n               Slides\n              \n             \n               Demo\n              \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Feb 20\n             \n             \n               Labwork  Lab 5a: Intro to ggplot2 (due 2/21)\n             \n             \n                \n             \n             \n                \n             \n                  \n             \n          \n  \n  \n  \n             \n             \n             \n               Labwork2  Lab 5b: Shiny app Old Faithful w/ggplot2\n             \n             \n                \n             \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Feb 21\n             \n             \n               Shiny  Shiny Friday: graphics with ggplot\n             \n             \n               Demo2\n              \n             \n               Demo3\n              \n                  \n             \n          \n  \n  \n  \n             \n             \n             \n               Homework  HW4: Graphics (avail 2/22, due 2/28)\n             \n             \n                \n             \n             \n                \n             \n                  \n             \n          \n     \n     \n  \n   \n  \n\n   Week 6\n\n   \n   \n   \n   \n   \n     \n  \n          \n  \n  \n  \n             \n             \n             About\n             \n             \n               Overview  Unit 6: Tables and Tidyverse (part 2)\n             \n             \n                \n             \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Feb 24\n             \n             \n               Lecture  Manipulating tables with dplyr (notes)\n             \n             \n               Slides\n              \n             \n               Demo\n              \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Feb 26\n             \n             \n               Lecture  More dplyr (notes)\n             \n             \n               Slides\n              \n             \n               Demo\n              \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Feb 27\n             \n             \n               Labwork  Lab 6: Intro to dplyr (due 2/28)\n             \n             \n                \n             \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Feb 28\n             \n             \n               Shiny  Shiny Friday: Top-n mtcars\n             \n             \n                \n             \n             \n                \n             \n                  \n             \n          \n  \n  \n  \n             \n             \n             \n               Homework  HW5: Data Wrangling (avail 3/01, due 3/07)\n             \n             \n                \n             \n             \n                \n             \n                  \n             \n          \n     \n     \n  \n   \n  \n\n   Week 7\n\n   \n   \n   \n   \n   \n     \n  \n          \n  \n  \n  \n             \n             \n             About\n             \n             \n               Overview  Unit 7: Iterations and Loops\n             \n             \n                \n             \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Mar 3\n             \n             \n               Lecture  Iterations (notes)\n             \n             \n               Slides\n              \n             \n               Demo\n              \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Mar 5\n             \n             \n               Lecture  More Iterations and Simulations (slides)\n             \n             \n               Slides\n              \n             \n               Demo\n              \n                  \n             \n          \n  \n  \n  \n             \n             \n             \n               Midterm  See announcement in bCourses\n             \n             \n                \n             \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Mar 6\n             \n             \n               Labwork  Lab 7: Loops in R (due 3/07)\n             \n             \n                \n             \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Mar 7\n             \n             \n               Shiny  Shiny Friday: Future Value simulations\n             \n             \n               Demo\n              \n             \n                \n             \n                  \n             \n          \n  \n  \n  \n             \n             \n             \n               Homework  HW6: Iterations (avail 3/08, due 3/14)\n             \n             \n                \n             \n             \n                \n             \n                  \n             \n          \n     \n     \n  \n   \n  \n\n   Week 8\n\n   \n   \n   \n   \n   \n     \n  \n          \n  \n  \n  \n             \n             \n             About\n             \n             \n               Overview  Unit 8: Regular Expressions\n             \n             \n                \n             \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Mar 10\n             \n             \n               Lecture  Intro to Regular Expressions (notes)\n             \n             \n               Slides\n              \n             \n               Demo\n              \n                  \n             \n          \n  \n  \n  \n             \n             \n             \n               Lectur2  Character sets (notes)\n             \n             \n                \n             \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Mar 12\n             \n             \n               Lecture  Anchors (notes)\n             \n             \n               Slides\n              \n             \n               Demo\n              \n                  \n             \n          \n  \n  \n  \n             \n             \n             \n               Lectur2  Quantifiers (notes)\n             \n             \n                \n             \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Mar 13\n             \n             \n               Labwork  Lab 8a: Publishing a shiny app (due 3/14)\n             \n             \n                \n             \n             \n                \n             \n                  \n             \n          \n  \n  \n  \n             \n             \n             \n               Labwork2  Lab 8b: Intro to Regex (due 3/14)\n             \n             \n                \n             \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Mar 14\n             \n             \n               Lecture  Look Arounds (notes)\n             \n             \n                \n             \n             \n                \n             \n                  \n             \n          \n  \n  \n  \n             \n             \n             \n               Homework  Shiny App-1 (avail 3/15, due 4/04)\n             \n             \n                \n             \n             \n                \n             \n                  \n             \n          \n     \n     \n  \n   \n  \n\n   Week 9\n\n   \n   \n   \n   \n   \n     \n  \n          \n  \n  \n  \n             \n             \n             About\n             \n             \n               Overview  Unit 9: Text Mining 1\n             \n             \n                \n             \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Mar 17\n             \n             \n               Lecture  Text Mining, introduction (notes)\n             \n             \n               Slides\n              \n             \n               Demo\n              \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Mar 19\n             \n             \n               Lecture  Text Mining, word frequencies (notes)\n             \n             \n               Slides\n              \n             \n               Demo\n              \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Mar 20\n             \n             \n               Labwork  Lab 9: More Regex (due 3/21)\n             \n             \n                \n             \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Mar 21\n             \n             \n               Lecture  Text Mining, part 3\n             \n             \n               Demo\n              \n             \n                \n             \n                  \n             \n          \n     \n     \n  \n   \n  \n\n   Week Spring Recess\n\n   \n   \n   \n   \n   \n     \n  \n          \n  \n  \n  \n             \n             \n             None\n             \n             \n               None  \n             \n             \n                \n             \n             \n                \n             \n                  \n             \n          \n     \n     \n  \n   \n  \n\n   Week 10\n\n   \n   \n   \n   \n   \n     \n  \n          \n  \n  \n  \n             \n             \n             About\n             \n             \n               Overview  Unit 10: Text Mining 2\n             \n             \n                \n             \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Mar 31\n             \n             \n               Lecture  Sentiment Analysis 1 (notes)\n             \n             \n               Demo\n              \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Apr 2\n             \n             \n               Lecture  Sentiment Analysis 2 (notes)\n             \n             \n               Demo\n              \n             \n                \n             \n                  \n             \n          \n  \n  \n  \n             \n             \n             \n               Lectur2  Correspondence Analysis (notes)\n             \n             \n                \n             \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Apr 3\n             \n             \n               Labwork  Lab 10: Text Mining (due 4/04)\n             \n             \n                \n             \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Apr 4\n             \n             \n               Lecture  More Correspondence Analysis (notes)\n             \n             \n                \n             \n             \n                \n             \n                  \n             \n          \n  \n  \n  \n             \n             \n             \n               Homework  Shiny App-2 (avail 4/05, due 4/18)\n             \n             \n                \n             \n             \n                \n             \n                  \n             \n          \n     \n     \n  \n   \n  \n\n   Week 11\n\n   \n   \n   \n   \n   \n     \n  \n          \n  \n  \n  \n             \n             \n             About\n             \n             \n               Overview  Unit 11: Geospatial Data 1\n             \n             \n                \n             \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Apr 7\n             \n             \n               Lecture  Mapping Storms, simple features (notes)\n             \n             \n               Slides\n              \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Apr 9\n             \n             \n               Lecture  Mapping Storms, leaflet (notes)\n             \n             \n               Slides\n              \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Apr 10\n             \n             \n               Labwork  Lab 11: Maps 1 (due 4/11)\n             \n             \n                \n             \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Apr 11\n             \n             \n               Lecture  Mapping Storms (part 3)\n             \n             \n               Demo\n              \n             \n                \n             \n                  \n             \n          \n     \n     \n  \n   \n  \n\n   Week 12\n\n   \n   \n   \n   \n   \n     \n  \n          \n  \n  \n  \n             \n             \n             About\n             \n             \n               Overview  Unit 12: Geospatial Data 2\n             \n             \n                \n             \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Apr 14\n             \n             \n               Lecture  Choropleth maps 1\n             \n             \n               Demo\n              \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Apr 16\n             \n             \n               Lecture  Choropleth maps 2\n             \n             \n               Demo\n              \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Apr 17\n             \n             \n               Labwork  Lab 12: Maps 2 (due 4/18)\n             \n             \n                \n             \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Apr 18\n             \n             \n               Lecture  Choropleth maps 3\n             \n             \n               Demo\n              \n             \n                \n             \n                  \n             \n          \n  \n  \n  \n             \n             \n             \n               Homework  Shiny App-3 (avail 4/19, due 5/02)\n             \n             \n                \n             \n             \n                \n             \n                  \n             \n          \n     \n     \n  \n   \n  \n\n   Week 13\n\n   \n   \n   \n   \n   \n     \n  \n          \n  \n  \n  \n             \n             \n             About\n             \n             \n               Overview  Unit 13: Web Tech 1\n             \n             \n                \n             \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Apr 21\n             \n             \n               Lecture  JSON data (notes)\n             \n             \n               Slides\n              \n             \n               Demo\n              \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Apr 23\n             \n             \n               Lecture  APIs (notes)\n             \n             \n                \n             \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Apr 24\n             \n             \n               Labwork  Lab 13: Bart API (due 4/25)\n             \n             \n                \n             \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Apr 25\n             \n             \n               Lecture  XML 1 (notes)\n             \n             \n               Slides\n              \n             \n                \n             \n                  \n             \n          \n     \n     \n  \n   \n  \n\n   Week 14\n\n   \n   \n   \n   \n   \n     \n  \n          \n  \n  \n  \n             \n             \n             About\n             \n             \n               Overview  Unit 14: Web Tech 2\n             \n             \n                \n             \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Apr 28\n             \n             \n               Lecture  Xpath (notes)\n             \n             \n               Slides\n              \n             \n                \n             \n                  \n             \n          \n  \n  \n  \n             \n             \n             \n               Lectur2  Xpath (notes)\n             \n             \n               Slides\n              \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Apr 30\n             \n             \n               Lecture  Web Scraping: HTML (notes)\n             \n             \n                \n             \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             May 1\n             \n             \n               Labwork  Lab 14: Web Scraping (due 5/02)\n             \n             \n                \n             \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             May 2\n             \n             \n               Lecture  Closing Talk\n             \n             \n                \n             \n             \n                \n             \n                  \n             \n          \n     \n     \n  \n   \n  \n\n   Week 15\n\n   \n   \n   \n   \n   \n     \n  \n          \n  \n  \n  \n             \n             \n             About\n             \n             \n               Overview  RRR Week\n             \n             \n                \n             \n             \n                \n             \n                  \n             \n          \n     \n     \n  \n   \n  \n\n   Week 16\n\n   \n   \n   \n   \n   \n     \n  \n          \n  \n  \n  \n             \n             \n             May 14\n             \n             \n               Final  Final Exam (see announcement in bCourses)\n             \n             \n                \n             \n             \n                \n             \n                  \n             \n          \n     \n     \n  \n   \n  \n\n\nNo matching items",
     "crumbs": [
       "Home / Schedule"
     ]
   },
   {
-    "objectID": "units/unit2.html",
-    "href": "units/unit2.html",
-    "title": "Unit 2: Next",
+    "objectID": "units/unit14.html",
+    "href": "units/unit14.html",
+    "title": "14) Web Tech 2",
     "section": "",
-    "text": "[UNDER CONSTRUCTION]\nThis is an example of using an ipynb file as source rather than qmd. It follows instructions from https://github.com/DS-100/course-notes/README.md.\nLink to the data.",
+    "text": "For our last week of the semester we provide an example of web scraping using a high-level approach that involves parsing XML and scraping data with functions from packages \"xml2\" and \"rvest\" (and a bit of \"stringr\").",
     "crumbs": [
       "Units",
-      "Unit 2: Next"
+      "14) Web Tech 2"
     ]
   },
   {
-    "objectID": "units/unit2.html#latex",
-    "href": "units/unit2.html#latex",
-    "title": "Unit 2: Next",
-    "section": "\\(\\LaTeX\\)",
-    "text": "\\(\\LaTeX\\)\nHere is some \\(\\LaTeX\\). \\[\n\\theta = 7\n\\]",
-    "crumbs": [
-      "Units",
-      "Unit 2: Next"
-    ]
-  },
-  {
-    "objectID": "units/unit2.html#evaluated-python-code",
-    "href": "units/unit2.html#evaluated-python-code",
-    "title": "Unit 2: Next",
-    "section": "Evaluated Python code",
-    "text": "Evaluated Python code\nNote that to get code output shown, the underlying notebook must have executed the code.\n\n\nCode\na=7\nprint(a)\n\n\n7",
-    "crumbs": [
-      "Units",
-      "Unit 2: Next"
-    ]
-  },
-  {
-    "objectID": "units/unit2.html#callout",
-    "href": "units/unit2.html#callout",
-    "title": "Unit 2: Next",
-    "section": "Callout",
-    "text": "Callout\n\n\n\n\n\n\nTip with Title\n\n\n\nThis is an example of a callout with a title.",
-    "crumbs": [
-      "Units",
-      "Unit 2: Next"
-    ]
-  },
-  {
-    "objectID": "units/unit1.html",
-    "href": "units/unit1.html",
-    "title": "Unit 1: Intro",
+    "objectID": "units/unit14.html#lecture",
+    "href": "units/unit14.html#lecture",
+    "title": "14) Web Tech 2",
     "section": "",
-    "text": "[UNDER CONSTRUCTION]\nThis is an example of using qmd as the source document.",
+    "text": "For our last week of the semester we provide an example of web scraping using a high-level approach that involves parsing XML and scraping data with functions from packages \"xml2\" and \"rvest\" (and a bit of \"stringr\").",
     "crumbs": [
       "Units",
-      "Unit 1: Intro"
+      "14) Web Tech 2"
     ]
   },
   {
-    "objectID": "units/unit1.html#evaluated-python-code-chunk-with-a-plot",
-    "href": "units/unit1.html#evaluated-python-code-chunk-with-a-plot",
-    "title": "Unit 1: Intro",
-    "section": "Evaluated Python code chunk, with a plot",
-    "text": "Evaluated Python code chunk, with a plot\n\n\nCode\nimport numpy as np\nx = np.random.normal(size=100)\nimport matplotlib.pyplot as plt\nplt.hist(x)\nplt.show()\nnp.mean(x)\n\n\n\n\n\n\n\n\n\nnp.float64(0.012593896273526995)",
+    "objectID": "units/unit14.html#reading",
+    "href": "units/unit14.html#reading",
+    "title": "14) Web Tech 2",
+    "section": "📚 Reading",
+    "text": "📚 Reading\nRead the following chapters from “R Web Technologies”:\n\nhttps://www.gastonsanchez.com/R-web-technologies/xml.html\nhttps://www.gastonsanchez.com/R-web-technologies/parsing-xml.html\nhttps://www.gastonsanchez.com/R-web-technologies/xpath.html",
     "crumbs": [
       "Units",
-      "Unit 1: Intro"
+      "14) Web Tech 2"
     ]
   },
   {
-    "objectID": "units/unit1.html#latex",
-    "href": "units/unit1.html#latex",
-    "title": "Unit 1: Intro",
-    "section": "\\(\\LaTeX\\)",
-    "text": "\\(\\LaTeX\\)\n\\[\n\\theta = \\int_0^\\infty f(x,\\theta)d\\theta\n\\]",
+    "objectID": "units/unit14.html#lab",
+    "href": "units/unit14.html#lab",
+    "title": "14) Web Tech 2",
+    "section": "🔬 Lab",
+    "text": "🔬 Lab\n\nPractice web scraping data.",
     "crumbs": [
       "Units",
-      "Unit 1: Intro"
+      "14) Web Tech 2"
     ]
   },
   {
-    "objectID": "units/unit1.html#styled-div-via-direct-html",
-    "href": "units/unit1.html#styled-div-via-direct-html",
-    "title": "Unit 1: Intro",
-    "section": "Styled div via direct html",
-    "text": "Styled div via direct html\n\nThis content can be styled via the border class.",
+    "objectID": "units/unit14.html#objectives",
+    "href": "units/unit14.html#objectives",
+    "title": "14) Web Tech 2",
+    "section": "🎯 Objectives",
+    "text": "🎯 Objectives\n\nDescribe what web scraping is.\nExaplain the purpose of Xpath expressions\nScrape some web data using \"rvest\" functions.",
     "crumbs": [
       "Units",
-      "Unit 1: Intro"
+      "14) Web Tech 2"
     ]
   },
   {
-    "objectID": "units/unit1.html#a-callout",
-    "href": "units/unit1.html#a-callout",
-    "title": "Unit 1: Intro",
-    "section": "A callout",
-    "text": "A callout\n\n\n\n\n\n\nTip with Title\n\n\n\nThis is an example of a callout with a title.",
+    "objectID": "units/unit14.html#assignments",
+    "href": "units/unit14.html#assignments",
+    "title": "14) Web Tech 2",
+    "section": "🔔 Assignments",
+    "text": "🔔 Assignments\n\nApp3 due on 12/06",
     "crumbs": [
       "Units",
-      "Unit 1: Intro"
+      "14) Web Tech 2"
     ]
   },
   {
-    "objectID": "units/unit1.html#tabset",
-    "href": "units/unit1.html#tabset",
-    "title": "Unit 1: Intro",
-    "section": "Tabset",
-    "text": "Tabset\n\nRPython\n\n\nThis code is not executed.\nfizz_buzz &lt;- function(fbnums = 1:50) {\n  output &lt;- dplyr::case_when(\n    fbnums %% 15 == 0 ~ \"FizzBuzz\",\n    fbnums %% 3 == 0 ~ \"Fizz\",\n    fbnums %% 5 == 0 ~ \"Buzz\",\n    TRUE ~ as.character(fbnums)\n  )\n  print(output)\n}\n\nfizz_buzz(3)\n\n\nThis code is executed.\n\n\nCode\ndef fizz_buzz(num):\n  if num % 15 == 0:\n    print(\"FizzBuzz\")\n  elif num % 5 == 0:\n    print(\"Buzz\")\n  elif num % 3 == 0:\n    print(\"Fizz\")\n  else:\n    print(num)\n    \nfizz_buzz(3)\n\n\nFizz",
+    "objectID": "units/unit11.html",
+    "href": "units/unit11.html",
+    "title": "11) Maps 1",
+    "section": "",
+    "text": "Many data sets (e.g. storms data set from \"dplyr\") contain geographical variables such as longitude and latitude that can be visualized with a map. This week we take \"ggplot2\" a further step to learn how to plot basic maps with some dedicated packages such as \"sf\" and \"rnaturalearth\". Likewise, we’ll also discuss how to produce web-interactive maps with the package \"leaflet\".",
     "crumbs": [
       "Units",
-      "Unit 1: Intro"
+      "11) Maps 1"
     ]
   },
   {
-    "objectID": "units/unit1.html#a-basic-markdown-table",
-    "href": "units/unit1.html#a-basic-markdown-table",
-    "title": "Unit 1: Intro",
-    "section": "A basic Markdown table",
-    "text": "A basic Markdown table\n\n\n\nDefault\nLeft\nRight\nCenter\n\n\n\n\n12\n12\n12\n12\n\n\n123\n123\n123\n123\n\n\n1\n1\n1\n1",
+    "objectID": "units/unit11.html#lecture",
+    "href": "units/unit11.html#lecture",
+    "title": "11) Maps 1",
+    "section": "",
+    "text": "Many data sets (e.g. storms data set from \"dplyr\") contain geographical variables such as longitude and latitude that can be visualized with a map. This week we take \"ggplot2\" a further step to learn how to plot basic maps with some dedicated packages such as \"sf\" and \"rnaturalearth\". Likewise, we’ll also discuss how to produce web-interactive maps with the package \"leaflet\".",
     "crumbs": [
       "Units",
-      "Unit 1: Intro"
+      "11) Maps 1"
+    ]
+  },
+  {
+    "objectID": "units/unit11.html#reading",
+    "href": "units/unit11.html#reading",
+    "title": "11) Maps 1",
+    "section": "📚 Reading",
+    "text": "📚 Reading\nRead chapters 17, 18, and 19 of “Tidy Hurricanes”:\n\nhttps://www.gastonsanchez.com/R-tidy-hurricanes/5-01-maps-intro.html\nhttps://www.gastonsanchez.com/R-tidy-hurricanes/5-03-maps-sf.html\nhttps://www.gastonsanchez.com/R-tidy-hurricanes/5-04-maps-leaflet.html",
+    "crumbs": [
+      "Units",
+      "11) Maps 1"
+    ]
+  },
+  {
+    "objectID": "units/unit11.html#lab",
+    "href": "units/unit11.html#lab",
+    "title": "11) Maps 1",
+    "section": "🔬 Lab",
+    "text": "🔬 Lab\n\nGraphing basic maps with \"ggplot2\" & \"sf\".\nMaking web-interactive maps with \"leaflet\".",
+    "crumbs": [
+      "Units",
+      "11) Maps 1"
+    ]
+  },
+  {
+    "objectID": "units/unit11.html#objectives",
+    "href": "units/unit11.html#objectives",
+    "title": "11) Maps 1",
+    "section": "🎯 Objectives",
+    "text": "🎯 Objectives\n\nExplain the concept of a “simple feature”\nDescribe how to use the layer geom_sf()\nMap latitude and longitude coordinates in a geom_sf() layer.",
+    "crumbs": [
+      "Units",
+      "11) Maps 1"
+    ]
+  },
+  {
+    "objectID": "units/unit11.html#assignments",
+    "href": "units/unit11.html#assignments",
+    "title": "11) Maps 1",
+    "section": "🔔 Assignments",
+    "text": "🔔 Assignments\n\nShiny App2, due 11/14",
+    "crumbs": [
+      "Units",
+      "11) Maps 1"
+    ]
+  },
+  {
+    "objectID": "units/unit12.html",
+    "href": "units/unit12.html",
+    "title": "12) Maps 2",
+    "section": "",
+    "text": "We continue discussing maps in R. In particular, we use two interesting data sets:\n\nIBTrACS shapefiles. We’ll use this to work with shapefiles, which is perhaps the most common format for vector data.\nUS Presidential Election Results (2020). We’ll use this data to make some choropleth maps. A choropleth map is a thematic map that is used to visualize how a variable varies across a geographic area.",
+    "crumbs": [
+      "Units",
+      "12) Maps 2"
+    ]
+  },
+  {
+    "objectID": "units/unit12.html#lecture",
+    "href": "units/unit12.html#lecture",
+    "title": "12) Maps 2",
+    "section": "",
+    "text": "We continue discussing maps in R. In particular, we use two interesting data sets:\n\nIBTrACS shapefiles. We’ll use this to work with shapefiles, which is perhaps the most common format for vector data.\nUS Presidential Election Results (2020). We’ll use this data to make some choropleth maps. A choropleth map is a thematic map that is used to visualize how a variable varies across a geographic area.",
+    "crumbs": [
+      "Units",
+      "12) Maps 2"
+    ]
+  },
+  {
+    "objectID": "units/unit12.html#reading",
+    "href": "units/unit12.html#reading",
+    "title": "12) Maps 2",
+    "section": "📚 Reading",
+    "text": "📚 Reading\nRead chapters 17, 18, and 19 of “Tidy Hurricanes”:\n\nhttps://www.gastonsanchez.com/R-tidy-hurricanes/5-01-maps-intro.html\nhttps://www.gastonsanchez.com/R-tidy-hurricanes/5-03-maps-sf.html\nhttps://www.gastonsanchez.com/R-tidy-hurricanes/5-04-maps-leaflet.html",
+    "crumbs": [
+      "Units",
+      "12) Maps 2"
+    ]
+  },
+  {
+    "objectID": "units/unit12.html#lab",
+    "href": "units/unit12.html#lab",
+    "title": "12) Maps 2",
+    "section": "🔬 Lab",
+    "text": "🔬 Lab\n\nGraphing maps with \"ggplot2\", \"sf\", and \"leaflet\".",
+    "crumbs": [
+      "Units",
+      "12) Maps 2"
+    ]
+  },
+  {
+    "objectID": "units/unit12.html#objectives",
+    "href": "units/unit12.html#objectives",
+    "title": "12) Maps 2",
+    "section": "🎯 Objectives",
+    "text": "🎯 Objectives\n\nDescribe the components of a shapefile.\nImport shapefiles in R.\nMake maps with shapefile data.\nExplain the concept of a “choropleth map”\nPlot a map of US counties with geom_sf().",
+    "crumbs": [
+      "Units",
+      "12) Maps 2"
+    ]
+  },
+  {
+    "objectID": "units/unit12.html#assignments",
+    "href": "units/unit12.html#assignments",
+    "title": "12) Maps 2",
+    "section": "🔔 Assignments",
+    "text": "🔔 Assignments\n\nShiny App2, due 11/14\nShiny App3 released on 11/15, due 12/06",
+    "crumbs": [
+      "Units",
+      "12) Maps 2"
+    ]
+  },
+  {
+    "objectID": "units/unit9.html",
+    "href": "units/unit9.html",
+    "title": "9) Text Mining 1",
+    "section": "",
+    "text": "We move on to our next topic which involves basic principles behind Text Mining, “the process of distilling actionable insights from text”.\nBroadly speaking, Text Mining analysis can be divided in two big categories: 1) Bag-of-Words (bow) analysis, and 2) Syntactic Parsing. In this course, we will focus exclusively on topics related to bag-of-words analysis.\nPreliminary Operations: Because text data is rarely ready to be analyzed, we need to first discuss some of the common preparation steps for having text data in a way that can be mathematically/statistically analyzed.\nFrequency Analysis: The most basic type of bag-of-words text mining analysis consists of counting the number of occurrences or frequencies of each token.",
+    "crumbs": [
+      "Units",
+      "9) Text Mining 1"
+    ]
+  },
+  {
+    "objectID": "units/unit9.html#lecture",
+    "href": "units/unit9.html#lecture",
+    "title": "9) Text Mining 1",
+    "section": "",
+    "text": "We move on to our next topic which involves basic principles behind Text Mining, “the process of distilling actionable insights from text”.\nBroadly speaking, Text Mining analysis can be divided in two big categories: 1) Bag-of-Words (bow) analysis, and 2) Syntactic Parsing. In this course, we will focus exclusively on topics related to bag-of-words analysis.\nPreliminary Operations: Because text data is rarely ready to be analyzed, we need to first discuss some of the common preparation steps for having text data in a way that can be mathematically/statistically analyzed.\nFrequency Analysis: The most basic type of bag-of-words text mining analysis consists of counting the number of occurrences or frequencies of each token.",
+    "crumbs": [
+      "Units",
+      "9) Text Mining 1"
+    ]
+  },
+  {
+    "objectID": "units/unit9.html#reading",
+    "href": "units/unit9.html#reading",
+    "title": "9) Text Mining 1",
+    "section": "📚 Reading",
+    "text": "📚 Reading\nRead chapters 1, 2 and 4 of “Text Mining with R” (by Julia Silge and David Robinson):\n\nhttps://www.tidytextmining.com/tidytext\nhttps://www.tidytextmining.com/sentiment\nhttps://www.tidytextmining.com/ngrams",
+    "crumbs": [
+      "Units",
+      "9) Text Mining 1"
+    ]
+  },
+  {
+    "objectID": "units/unit9.html#lab",
+    "href": "units/unit9.html#lab",
+    "title": "9) Text Mining 1",
+    "section": "🔬 Lab",
+    "text": "🔬 Lab\n\nPublish a shiny app to shinyapps.io\nKeep practicing regular expressions.",
+    "crumbs": [
+      "Units",
+      "9) Text Mining 1"
+    ]
+  },
+  {
+    "objectID": "units/unit9.html#objectives",
+    "href": "units/unit9.html#objectives",
+    "title": "9) Text Mining 1",
+    "section": "🎯 Objectives",
+    "text": "🎯 Objectives\n\nList at least four operations that are commonly applied to a text data set before it can be analyzed with text mining techniques.\nDescribe the notion of stopwords.\nExplain what a corpus (or corpora) is.\nExplain what a token is.\nExplain the concept of tokenization.\nCompute frequencies of tokens.\nVisualize frequencies with barcharts and wordclouds.",
+    "crumbs": [
+      "Units",
+      "9) Text Mining 1"
+    ]
+  },
+  {
+    "objectID": "units/unit9.html#assignments",
+    "href": "units/unit9.html#assignments",
+    "title": "9) Text Mining 1",
+    "section": "🔔 Assignments",
+    "text": "🔔 Assignments\n\nMidterm on Friday 10/25\nKeep working on your shiny App1, due 11/01",
+    "crumbs": [
+      "Units",
+      "9) Text Mining 1"
+    ]
+  },
+  {
+    "objectID": "units/unit3.html",
+    "href": "units/unit3.html",
+    "title": "3) Lists and Matrices",
+    "section": "",
+    "text": "This week in class we discuss more data objects in R, specifically matrices and lists.\nAlthough we won’t work with matrices that much in Stat 133, it’s worth learning the following:\n\nWhy matrices, like vectors, are atomic objects,\nIn what sense a matrix is a 2-dimensional array,\nHow R stores matrices,\nFunctions to create matrices, and inspect their structure\nHow to manipulate matrices using bracket notation\n\nAs for lists, they are the most generic kind of data container in R, and you’ll learn:\n\nIn what sense a list is a non-atomic atomic\nIn what sense a list is a one-dimensional object\nHow to create lists\nDifferent ways to manipulate lists",
+    "crumbs": [
+      "Units",
+      "3) Lists and Matrices"
+    ]
+  },
+  {
+    "objectID": "units/unit3.html#lecture",
+    "href": "units/unit3.html#lecture",
+    "title": "3) Lists and Matrices",
+    "section": "",
+    "text": "This week in class we discuss more data objects in R, specifically matrices and lists.\nAlthough we won’t work with matrices that much in Stat 133, it’s worth learning the following:\n\nWhy matrices, like vectors, are atomic objects,\nIn what sense a matrix is a 2-dimensional array,\nHow R stores matrices,\nFunctions to create matrices, and inspect their structure\nHow to manipulate matrices using bracket notation\n\nAs for lists, they are the most generic kind of data container in R, and you’ll learn:\n\nIn what sense a list is a non-atomic atomic\nIn what sense a list is a one-dimensional object\nHow to create lists\nDifferent ways to manipulate lists",
+    "crumbs": [
+      "Units",
+      "3) Lists and Matrices"
+    ]
+  },
+  {
+    "objectID": "units/unit3.html#reading",
+    "href": "units/unit3.html#reading",
+    "title": "3) Lists and Matrices",
+    "section": "📚 Reading",
+    "text": "📚 Reading\nRead chapters 6, 7 and 8 of “R Coding Basics”:\n\nhttps://www.gastonsanchez.com/R-coding-basics/3-01-matrices-intro.html\nhttps://www.gastonsanchez.com/R-coding-basics/3-02-matrices-operations.html\nhttps://www.gastonsanchez.com/R-coding-basics/4-01-lists.html",
+    "crumbs": [
+      "Units",
+      "3) Lists and Matrices"
+    ]
+  },
+  {
+    "objectID": "units/unit3.html#lab",
+    "href": "units/unit3.html#lab",
+    "title": "3) Lists and Matrices",
+    "section": "🔬 Lab",
+    "text": "🔬 Lab\nIn lab you will practice creating and manipulating matrices and lists.",
+    "crumbs": [
+      "Units",
+      "3) Lists and Matrices"
+    ]
+  },
+  {
+    "objectID": "units/unit3.html#objectives",
+    "href": "units/unit3.html#objectives",
+    "title": "3) Lists and Matrices",
+    "section": "🎯 Objectives",
+    "text": "🎯 Objectives\n\nCreate simple matrices with matrix()\nDescribe and give examples of matrix subsetting (subscripting, indexing)\nExplain in what sense a matrix is a 2-dimensional object\nDescribe and give examples of subsetting (subscripting, indexing) of an R list\nProvide an example of list subsetting with single brackets (e.g. lis[index])\nProvide an example of list subsetting with double brackets, and a single element (e.g. lis[[index]])\nProvide a manipulation example of a list with the dollar operator (e.g. lis$wagon )",
+    "crumbs": [
+      "Units",
+      "3) Lists and Matrices"
+    ]
+  },
+  {
+    "objectID": "units/unit3.html#shiny-friday",
+    "href": "units/unit3.html#shiny-friday",
+    "title": "3) Lists and Matrices",
+    "section": "🔆 Shiny Friday",
+    "text": "🔆 Shiny Friday\nThe shiny app of this week is based on the computation of Future Value (compounding interest) in its simplest version:\n\\[\nFV = P (1 + r)^n\n\\]\nThis is a simple app that takes three inputs:\n\nP = principal or initial amount (how much you deposit)\nr = annual interest rate (or rate of return)\nn = number of years\n\nIn turn, the app produces one (graphical) output which is a timeline to visualize the Future Value.\nThere are two versions of the app: one uses three sliders (one slider per input), and the other one uses three numeric inputs (one number per input)\n\nhttps://github.com/data133/shiny/tree/main/future-value1-numerics\nhttps://github.com/data133/shiny/tree/main/future-value2-sliders",
+    "crumbs": [
+      "Units",
+      "3) Lists and Matrices"
+    ]
+  },
+  {
+    "objectID": "units/unit3.html#hw-assignments",
+    "href": "units/unit3.html#hw-assignments",
+    "title": "3) Lists and Matrices",
+    "section": "🔔 HW Assignments",
+    "text": "🔔 HW Assignments\n\nHW1 due this 9/13\nHW2 released on 9/14, due 9/20",
+    "crumbs": [
+      "Units",
+      "3) Lists and Matrices"
+    ]
+  },
+  {
+    "objectID": "units/unit4.html",
+    "href": "units/unit4.html",
+    "title": "4) Functions and Conditionals",
+    "section": "",
+    "text": "You don’t need to be an expert programmer to be a data scientist, but learning more about programming allows you to automate common tasks, and solve new problems with greater ease.\nThis week we’ll discuss how to write basic functions, the notion of compound expressions in R, and an introduction to conditionals (i.e. if-else statements).",
+    "crumbs": [
+      "Units",
+      "4) Functions and Conditionals"
+    ]
+  },
+  {
+    "objectID": "units/unit4.html#lecture",
+    "href": "units/unit4.html#lecture",
+    "title": "4) Functions and Conditionals",
+    "section": "",
+    "text": "You don’t need to be an expert programmer to be a data scientist, but learning more about programming allows you to automate common tasks, and solve new problems with greater ease.\nThis week we’ll discuss how to write basic functions, the notion of compound expressions in R, and an introduction to conditionals (i.e. if-else statements).",
+    "crumbs": [
+      "Units",
+      "4) Functions and Conditionals"
+    ]
+  },
+  {
+    "objectID": "units/unit4.html#reading",
+    "href": "units/unit4.html#reading",
+    "title": "4) Functions and Conditionals",
+    "section": "📚 Reading",
+    "text": "📚 Reading\nRead chapters 10, 11, and 12 of “R Coding Basics”:\n\nhttps://www.gastonsanchez.com/R-coding-basics/5-01-functions-intro.html\nhttps://www.gastonsanchez.com/R-coding-basics/5-02-expressions.html\nhttps://www.gastonsanchez.com/R-coding-basics/5-03-conditionals.html",
+    "crumbs": [
+      "Units",
+      "4) Functions and Conditionals"
+    ]
+  },
+  {
+    "objectID": "units/unit4.html#lab",
+    "href": "units/unit4.html#lab",
+    "title": "4) Functions and Conditionals",
+    "section": "🔬 Lab",
+    "text": "🔬 Lab\nYou will get your hands “dirty” writing basic functions, and conditional statements.",
+    "crumbs": [
+      "Units",
+      "4) Functions and Conditionals"
+    ]
+  },
+  {
+    "objectID": "units/unit4.html#objectives",
+    "href": "units/unit4.html#objectives",
+    "title": "4) Functions and Conditionals",
+    "section": "🎯 Objectives",
+    "text": "🎯 Objectives\nAt the end of this week you will be able to:\n\nDescribe the main parts of a function (i.e. anatomy of a function)\nGive a simple example for creating a function\nExplain the concept of an R compound expression\nWrite if-else statements to handle simple conditions\nUse if-else statements when writing functions to decide what code to execute",
+    "crumbs": [
+      "Units",
+      "4) Functions and Conditionals"
+    ]
+  },
+  {
+    "objectID": "units/unit4.html#shiny-friday",
+    "href": "units/unit4.html#shiny-friday",
+    "title": "4) Functions and Conditionals",
+    "section": "🔆 Shiny Friday",
+    "text": "🔆 Shiny Friday\nThe shiny app for this week is a modified version of the default “Old Faithful” app.\nThe main modification has to do with the use of an if-statement to decide whether to display additional statistics on the histogram of waiting times.\nMore specifically, we have three new versions:\n\nold-faithful3-average-radio: includes radio buttons to display line of average waiting time  https://github.com/data133/shiny/tree/main/old-faithful3-average-radio\nold-faithful4-average-checkbox: includes a checkbox to display line of average waiting time  https://github.com/data133/shiny/tree/main/old-faithful4-average-checkbox\nold-faithful5-statistics: includes an auxiliary function to compute descriptive statistics, and also a checkbox to display descriptive statistics  https://github.com/data133/shiny/tree/main/old-faithful5-statistics",
+    "crumbs": [
+      "Units",
+      "4) Functions and Conditionals"
+    ]
+  },
+  {
+    "objectID": "units/unit4.html#assignments",
+    "href": "units/unit4.html#assignments",
+    "title": "4) Functions and Conditionals",
+    "section": "🔔 Assignments",
+    "text": "🔔 Assignments\n\nHW2 due this 9/20\nHW3 released on 9/21, due 9/27",
+    "crumbs": [
+      "Units",
+      "4) Functions and Conditionals"
+    ]
+  },
+  {
+    "objectID": "units/unit7.html",
+    "href": "units/unit7.html",
+    "title": "7) Iterations",
+    "section": "",
+    "text": "In addition to writing functions to reduce duplication in your code, you also need to learn about iteration, which helps you when you need to do the same operation several times. Namely, we review control flow structures such as for loops, while loops, repeat loops, and the apply family functions.",
+    "crumbs": [
+      "Units",
+      "7) Iterations"
+    ]
+  },
+  {
+    "objectID": "units/unit7.html#lecture",
+    "href": "units/unit7.html#lecture",
+    "title": "7) Iterations",
+    "section": "",
+    "text": "In addition to writing functions to reduce duplication in your code, you also need to learn about iteration, which helps you when you need to do the same operation several times. Namely, we review control flow structures such as for loops, while loops, repeat loops, and the apply family functions.",
+    "crumbs": [
+      "Units",
+      "7) Iterations"
+    ]
+  },
+  {
+    "objectID": "units/unit7.html#reading",
+    "href": "units/unit7.html#reading",
+    "title": "7) Iterations",
+    "section": "📚 Reading",
+    "text": "📚 Reading\nRead chapters 13 and 14 of “R Coding Basics”:\n\nhttps://www.gastonsanchez.com/R-coding-basics/5-04-for-loop.html\nhttps://www.gastonsanchez.com/R-coding-basics/5-05-while-loop.html",
+    "crumbs": [
+      "Units",
+      "7) Iterations"
+    ]
+  },
+  {
+    "objectID": "units/unit7.html#lab",
+    "href": "units/unit7.html#lab",
+    "title": "7) Iterations",
+    "section": "🔬 Lab",
+    "text": "🔬 Lab\nYou’ll keep working writing a variety of loops in R (e.g. for, while, repeat).",
+    "crumbs": [
+      "Units",
+      "7) Iterations"
+    ]
+  },
+  {
+    "objectID": "units/unit7.html#objectives",
+    "href": "units/unit7.html#objectives",
+    "title": "7) Iterations",
+    "section": "🎯 Objectives",
+    "text": "🎯 Objectives\nAt the end of this week you will be able to:\n\nWrite for loops to repeat the same operation a given number of times\nWrite while loops to repeat the same operation an unknown number of times",
+    "crumbs": [
+      "Units",
+      "7) Iterations"
+    ]
+  },
+  {
+    "objectID": "units/unit7.html#shiny-friday",
+    "href": "units/unit7.html#shiny-friday",
+    "title": "7) Iterations",
+    "section": "🔆 Shiny Friday",
+    "text": "🔆 Shiny Friday\nThe shiny app for this week is the same one from last week: it uses mtcars data set to visualize the top-n cars given a selected variable.\nAn important component of this app is the use of the reactive() function to create so-called reactive conductors (i.e. an R expression that uses widget input(s) and returns a value).\n\nmtcars-topn-barchart: produces a simple barchart—via \"ggplot2\"—to visualize the top-n cars given a selected variable. In addition to the plot, it also displays a table with the top-n cars. More important, this app uses a so-called reactive conductor element. https://github.com/data133/shiny/tree/main/mtcars-topn-barchart",
+    "crumbs": [
+      "Units",
+      "7) Iterations"
+    ]
+  },
+  {
+    "objectID": "units/unit7.html#assignments",
+    "href": "units/unit7.html#assignments",
+    "title": "7) Iterations",
+    "section": "🔔 Assignments",
+    "text": "🔔 Assignments\n\nHW5 due this 10/11\nHW6 released on 10/12, due 10/18",
+    "crumbs": [
+      "Units",
+      "7) Iterations"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Announcement\n\n\n\n\nInstructor: Gaston Sanchez\nLecture: MWF 3pm-4pm in Stanley 105\nLab:\n\nLab 101, Th 9am-11am, Evans 342 (GSI TBA)\nLab 102, Th 9am-11am, Evans 334 (GSI TBA)\nLab 103, Th 11am-1pm, Evans 342 (GSI TBA)\nLab 104, Th 1pm-3pm, Evans 342 (GSI TBA)\nLab 105, Th 3pm-5pm, Evans 342 (GSI TBA)\nLab 106, Th 4pm-6pm, Evans 332 (GSI TBA)\n\nCode #: 22824\nUnits: 3\nFinal Exam: Wed May-14th, 7pm-10pm, location TBD.\nDates: Jan-22 / May-02\nStat 133 is an introductory-to-intermediate level course to computational data analysis with an emphasis on four major cornerstones:\nBecause Stat 133 is one of the core courses for Statistics majors, the underlying goal is to provide foundations for “computing with data” so that stat majors, as well as other data-dependent majors (e.g. Data Science, Applied Math, CogSci, Economics, etc), have the basic computational skills for subsequent upper division courses (e.g. Stat 150, 151A, 152, 153, 154, 155, 157, 158, 159).",
+    "crumbs": [
+      "About"
+    ]
+  },
+  {
+    "objectID": "about.html#info",
+    "href": "about.html#info",
+    "title": "About",
+    "section": "",
+    "text": "Instructor: Gaston Sanchez\nLecture: MWF 3pm-4pm in Stanley 105\nLab:\n\nLab 101, Th 9am-11am, Evans 342 (GSI TBA)\nLab 102, Th 9am-11am, Evans 334 (GSI TBA)\nLab 103, Th 11am-1pm, Evans 342 (GSI TBA)\nLab 104, Th 1pm-3pm, Evans 342 (GSI TBA)\nLab 105, Th 3pm-5pm, Evans 342 (GSI TBA)\nLab 106, Th 4pm-6pm, Evans 332 (GSI TBA)\n\nCode #: 22824\nUnits: 3\nFinal Exam: Wed May-14th, 7pm-10pm, location TBD.\nDates: Jan-22 / May-02",
+    "crumbs": [
+      "About"
+    ]
+  },
+  {
+    "objectID": "about.html#more-information",
+    "href": "about.html#more-information",
+    "title": "About",
+    "section": "More Information",
+    "text": "More Information\n\nSchedule\nSyllabus\nStaff\nCommunication via email\nEd Netiquette\nQ&As\n5 things you need to know",
+    "crumbs": [
+      "About"
     ]
   },
   {
@@ -246,49 +1314,326 @@
     "href": "syllabus.html",
     "title": "Syllabus",
     "section": "",
-    "text": "[UNDER CONSTRUCTION]\nJump to:",
+    "text": "STAT 133 is an introductory-to-intermediate level course to computational data analysis with an emphasis on four major cornerstones:\n\n🔢 Understand common data formats, and principles of data manipulation (e.g. wrangling, reshaping, tidying)\n📊 Production of data visualizations and their role in data analysis projects\n💻 Learn basic principles for writing code, and programming concepts (with emphasis on data analysis)\n⚒️ Use computational tools to carry out the data analysis cycle, organize your workflow, and become familiar with reporting tools (via dynamic documents and web-apps)\n\nBecause STAT 133 is one of the core courses for Statistics majors, the underlying goal is to provide foundations for “computing with data” so that stat majors, as well as other data-dependent majors (e.g. Data Science, Applied Math, CogSci, Economics, etc), have the basic computational skills for subsequent upper division courses (e.g. STAT 150, 151A, 152, 153, 154, 155, 157, 158, 159).",
     "crumbs": [
       "Syllabus"
     ]
   },
   {
-    "objectID": "syllabus.html#about-statistics-133",
-    "href": "syllabus.html#about-statistics-133",
+    "objectID": "syllabus.html#description",
+    "href": "syllabus.html#description",
     "title": "Syllabus",
-    "section": "About Statistics 133",
-    "text": "About Statistics 133\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus lectus dui, euismod vel tellus sit amet, maximus fringilla risus. Cras nec maximus leo. Fusce sit amet tortor pellentesque, hendrerit odio vitae, dictum lorem. Nunc sed nunc nisl. Cras augue tortor, ultrices ut luctus non, dictum nec magna. Cras vel ex purus. In blandit est non finibus dignissim. Donec vehicula, nisi quis rutrum faucibus, est turpis ultrices nibh, quis rutrum diam nibh tempus nulla. Vestibulum malesuada consectetur ex in vestibulum.\n\nGoals\n\nGoal 1\nGoal 2\nGoal 3\n\n\n\nPrerequisites\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus lectus dui, euismod vel tellus sit amet, maximus fringilla risus. Cras nec maximus leo. Fusce sit amet tortor pellentesque, hendrerit odio vitae, dictum lorem. Nunc sed nunc nisl. Cras augue tortor, ultrices ut luctus non, dictum nec magna. Cras vel ex purus. In blandit est non finibus dignissim. Donec vehicula, nisi quis rutrum faucibus, est turpis ultrices nibh, quis rutrum diam nibh tempus nulla. Vestibulum malesuada consectetur ex in vestibulum.",
+    "section": "",
+    "text": "STAT 133 is an introductory-to-intermediate level course to computational data analysis with an emphasis on four major cornerstones:\n\n🔢 Understand common data formats, and principles of data manipulation (e.g. wrangling, reshaping, tidying)\n📊 Production of data visualizations and their role in data analysis projects\n💻 Learn basic principles for writing code, and programming concepts (with emphasis on data analysis)\n⚒️ Use computational tools to carry out the data analysis cycle, organize your workflow, and become familiar with reporting tools (via dynamic documents and web-apps)\n\nBecause STAT 133 is one of the core courses for Statistics majors, the underlying goal is to provide foundations for “computing with data” so that stat majors, as well as other data-dependent majors (e.g. Data Science, Applied Math, CogSci, Economics, etc), have the basic computational skills for subsequent upper division courses (e.g. STAT 150, 151A, 152, 153, 154, 155, 157, 158, 159).",
     "crumbs": [
       "Syllabus"
     ]
   },
   {
-    "objectID": "calendar.html",
-    "href": "calendar.html",
-    "title": "Calendar",
-    "section": "",
-    "text": "This is an example of embedding a widget with multiple calendars. This might be useful if you want to have different calendars for assignments, exams, instructor office hours, GSI office hours, etc.",
+    "objectID": "syllabus.html#goals",
+    "href": "syllabus.html#goals",
+    "title": "Syllabus",
+    "section": "🎯 Goals",
+    "text": "🎯 Goals\nBy the end of the course, students will:\n\nConstruct and execute basic programs in R using elementary programming techniques and tidyverse packages.\nVisualize information and data using appropriate graphical techniques.\nImport data from files or the internet.\nMunge raw data into a tidy format.\nCreate visualizations using geospatial data.\nParse and analyze text documents.\nCreate reproducible documents.\nConstruct interactive web applications.\n\nWe don’t expect that you become a jedi data scientist, an R ninja, or a super coder. That takes YEARS of practice, training, learning, and collaboration. Instead, we want to give you a good foundation around tools for computational data analysis.",
     "crumbs": [
-      "Calendar"
+      "Syllabus"
     ]
   },
   {
-    "objectID": "calendar.html#course-calendar",
-    "href": "calendar.html#course-calendar",
-    "title": "Calendar",
-    "section": "",
-    "text": "This is an example of embedding a widget with multiple calendars. This might be useful if you want to have different calendars for assignments, exams, instructor office hours, GSI office hours, etc.",
+    "objectID": "syllabus.html#course-culture",
+    "href": "syllabus.html#course-culture",
+    "title": "Syllabus",
+    "section": "🏫 Course Culture",
+    "text": "🏫 Course Culture\nStudents taking STAT 133 come from a wide range of backgrounds. We hope to foster an inclusive and supportive learning environment based on curiosity rather than competition. All members of the course community—the instructor, GSIs, students, tutors, and readers—are expected to treat each other with courtesy and respect.\nYou will be interacting with course staff and fellow students in several different environments: in class, in lab, over the discussion forum, and in office hours. Some of these will be in person, some of them will be online, but the same expectations hold: be kind, be respectful, be professional.\nIf you are concerned about classroom environment issues created by other students or course staff, please come talk to us about it.",
     "crumbs": [
-      "Calendar"
+      "Syllabus"
     ]
   },
   {
-    "objectID": "calendar.html#instructions",
-    "href": "calendar.html#instructions",
-    "title": "Calendar",
-    "section": "Instructions",
-    "text": "Instructions\nWe suggest that you delete these instructions before publishing your website.\n\nCreate the Calendars:\n\nGo to Google Calendar.\nOn the left sidebar, click the + sign next to “Other calendars” and select “Create new calendar”.\nCreate your calendars and name them appropriately.\n\nObtain the Embed Code for Each Calendar:\n\nFor each calendar, go to its settings by clicking on the three dots next to the calendar name and selecting “Settings and sharing”.\nIn the calendar settings, scroll down to “Integrate calendar” and copy the embed code provided under “Embed code”.\n\nCombine the Embed Codes:\n\nInstead of copying the entire embed code, you need the calendar’s ID, which is part of the embed URL. It will look something like calendarID@group.calendar.google.com.\nFor example, in the embed URL https://calendar.google.com/calendar/embed?src=calendarID@group.calendar.google.com, calendarID@group.calendar.google.com is the part you need.\n\nCreate a Single Embed Link:\n\nUse the base URL for embedding multiple calendars: https://calendar.google.com/calendar/embed?\nAppend each calendar ID to the base URL using the format &src=calendarID@group.calendar.google.com for each calendar you want to include.\nOptionally, you can customize the appearance by adding parameters (e.g., &color=%23F6BF26 for the color, &ctz=America%2FLos_Angeles for the time zone).\n\nFor example, if you have two calendars with IDs calendar1ID@group.calendar.google.com and calendar2ID@group.calendar.google.com, your combined embed link would look like this:\n\nhttps://calendar.google.com/calendar/embed?src=calendar1ID@group.calendar.google.com&src=calendar2ID@group.calendar.google.com\n\nSubstitute this URL into the src attribute of the calendar’s iframe at the top of this page.",
+    "objectID": "syllabus.html#ℹ-prerequisites",
+    "href": "syllabus.html#ℹ-prerequisites",
+    "title": "Syllabus",
+    "section": "ℹ️ Prerequisites",
+    "text": "ℹ️ Prerequisites\nThis course does not have any prerequisites, although it would be nice if you have taken an introductory course in statistics (e.g. STAT 2, 20, 21, 131A).\nThe curriculum and format is designed specifically for students (ideally majoring in Statistics or minoring in Data Science) who have no-or-minimum programming experience. You also don’t need previous data analysis experience—although it helps if you do.\nStudents with some prior experience in either computational statistics or computing are welcome to enroll, though some parts of the course might feel extremely slow. We recommend that you take more advanced courses unless you need STAT 133 because of your major/minor’s requirements.",
     "crumbs": [
-      "Calendar"
+      "Syllabus"
     ]
+  },
+  {
+    "objectID": "syllabus.html#textbooks",
+    "href": "syllabus.html#textbooks",
+    "title": "Syllabus",
+    "section": "📚 Textbooks",
+    "text": "📚 Textbooks\nWe’ll be using a handful of textbooks (most of them based on the notes I’ve authored for STAT 133 in the last 9 years):\n\nhttps://www.gastonsanchez.com/R-coding-basics/\nhttps://www.gastonsanchez.com/R-tidy-hurricanes/\nhttps://www.gastonsanchez.com/R-rolling-dice/\nhttps://www.gastonsanchez.com/R-for-strings/\nhttps://www.gastonsanchez.com/R-web-technologies/\nhttps://www.tidytextmining.com/ (by Julia Silge and David Robinson)",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#computational-tools",
+    "href": "syllabus.html#computational-tools",
+    "title": "Syllabus",
+    "section": "🔧 Computational Tools",
+    "text": "🔧 Computational Tools\nWe will be mainly using the computing and programming environment R (via RStudio) to analyze data in this class. We may also ask you to use a command line interface to interact with your operating system. You do need your own computer to use R and do the assignments.\nWe don’t expect that students have already been exposed to R. For those who come from Data 8 or some previous coding experience in python, the first labs will help you transfer that knowledge over to R. Both languages are excellent platforms for analyzing data, are widely used in data science, and have their individual strengths. R has been developed within the statistics community specifically for data analysis, while python is a general-purpose programming language but has large data analysis capabilities.\nThe lectures tend to be focused on the data analysis concepts, while learning how to apply/use them in R tend to be the focus of the labs and assignments. Do not be surprised or worried about not following the details of R code during class—that is not the point (furthermore, there will sometimes be code that is really specific to the instructional purposes of the lecture, e.g. to make a specific plot, and is beyond the scope of what you would be expected to understand or know how to do it by yourself).",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#waitlisted-students-and-late-joining",
+    "href": "syllabus.html#waitlisted-students-and-late-joining",
+    "title": "Syllabus",
+    "section": "⏳ Waitlisted Students and Late Joining",
+    "text": "⏳ Waitlisted Students and Late Joining\nIf you are on the waiting list or have a pending application or added the course late, you must still do all coursework and complete labs and homework by the deadlines. We will not be offering extensions/exceptions if you are admitted/enrolled into the course later. So it is your responsibility to stay up to date on the assignments.\nUnfortunately, doing all the work is not a guarantee of enrollment. You will only be enrolled if there is space in your lab. Enrollment will proceed by CalCentral.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#office-hours",
+    "href": "syllabus.html#office-hours",
+    "title": "Syllabus",
+    "section": "🚪 Office hours",
+    "text": "🚪 Office hours\nMe (the instructor) and the GSIs will offer office hours each week across a range of times. You are welcome to visit the office hours of any instructor, not just the ones of your GSI. We may adjust the office hour schedule throughout the semester as we understand student needs and preferences. Please check the office hours tab on the staff page to see the times of the various OH sessions.\nI should also say that OH are an opportunity to chat one-on-one with me. If you can, please come to my office hours! Coming to OH does not necessarily send a signal that you are behind or need extra help. On the contrary, coming to office hours early and often tends to co-occur with success in the course. I am happy to chat about the course material, statistics in general, careers in statistics, and whatever other statistics or data science topics are on your mind!",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#group-tutoring",
+    "href": "syllabus.html#group-tutoring",
+    "title": "Syllabus",
+    "section": "🎒 Group Tutoring",
+    "text": "🎒 Group Tutoring\nTutors will offer group tutoring sessions several times each week. This is an opportunity to finish up any assignments that you’ve started in class or review any topics that are confusing for you. You’re welcome to attend any session that works well for your schedule.\nGroup tutoring is a great place to go to meet other students and collaborate on assignments with tutors on hand to help you get unstuck.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#labs-10-of-final-grade",
+    "href": "syllabus.html#labs-10-of-final-grade",
+    "title": "Syllabus",
+    "section": "🔬 Labs (10% of final grade)",
+    "text": "🔬 Labs (10% of final grade)\n\nWeekly lab discussions are an essential part of the course and we will introduce concepts not necessarily covered in class.\nThursdays are the official days for lab section.\nYou must attend the lab section you are officially enrolled in.\nDuring lab, you will work on short-form assignments designed to apply the concepts on real and simulated data sets.\nLab assignments will be released every Thursday (available in bCourses),\nThe due date is always on a Friday (please check the assignments tab in bCourses to keep track of deadlines).\nSolutions to lab assignments will be available a few days after their due date.\nWe will be giving credit on lab assignments based on completion.\nThe first lab assignment (lab-1) does not count toward your grade.\nOf all lab assignments (lab-2 to lab-14), your lowest 2 scores will be dropped in the calculation of your overall grade.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#problem-sets-35-of-final-grade",
+    "href": "syllabus.html#problem-sets-35-of-final-grade",
+    "title": "Syllabus",
+    "section": "📁 Problem Sets (35% of final grade)",
+    "text": "📁 Problem Sets (35% of final grade)\n\nThere will be 6 Problem-Set (PS) assignments (available in bCourses).\nPS are long-form assignments designed to apply the concepts you’ve learned in class and lab.\nStarting on week-2 they will be assigned every week, until week-7.\nThe due date is always on a Friday (please check the assignments tab in bCourses to keep track of deadlines).\nYou must write your own answers (using your own words and/or code). Copy and plagiarism will not be tolerated (see Academic Honesty policy).\nIf you don’t submit all required files, you will receive an automatic 10% deduction.\nIf you submit the incorrect files, you will receive no credit.\nSolutions will become available a few days (e.g. 3-4 days) after the due date.\nWe will drop the lowest Problem-Set assignment score in the calculation of your overall grade.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#app-projects-27-of-final-grade",
+    "href": "syllabus.html#app-projects-27-of-final-grade",
+    "title": "Syllabus",
+    "section": "📂 App Projects (27% of final grade)",
+    "text": "📂 App Projects (27% of final grade)\n\nThere will be about 3 Shiny App projects.\nThese are larger assignments intended to combine many of the ideas from the course, in order to create interactive web-apps.\nAs part of the submission you will have to record a video (with screen and face capture) in which you describe how to use your app, and explain the performed analysis and some of the obtained results.\nStarting on week-8 app projects will be assigned about every two weeks, until the end of instruction.\nWe will not drop any of the App assignment scores in the calculation of your overall grade.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#late-policy-and-hw-assignment-extensions",
+    "href": "syllabus.html#late-policy-and-hw-assignment-extensions",
+    "title": "Syllabus",
+    "section": "🕚 Late Policy and HW Assignment Extensions",
+    "text": "🕚 Late Policy and HW Assignment Extensions\nIf you cannot turn in a HW assignment on time, our default policy is:\n\nSubmissions within 24 hours after the deadline will receive a 15% deduction.\nSubmissions within 48 hours after the deadline will receive a 30% deduction.\nSubmissions that are 48 hours or more after the deadline will receive no credit.\n\nRequesting an extension: If you need to request an extension, regardless of your DSP status, fill out this google form. Submissions to this form will be visible only to the course staff members.\n\nAny first-time request for a 1-day extension on a problem set assignment, made before an assignment’s deadline, will be guaranteed to be approved, so long as it is made in good faith.\nAny first-time request for a 1-day extension on a shiny app assignment, made before an assignment’s deadline, will be guaranteed to be approved, so long as it is made in good faith.\nAny occasional request for a 2-day extension (requested before an assignment’s deadline) made by a student with a DSP accommodation for assignment extensions will be approved automatically.\n\nAlso, please keep in mind that we are dropping the lowest score of your six Problem-set assignments (do not confuse with App projects). This policy is in place to take care of any extenuating circumstances that prevent you from submitting one of these assignments.\nPlease plan ahead and pace yourself. Don’t wait until the last day to do an assignment. Don’t wait until the last minute to submit your assignments.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#midterm-7-of-final-grade",
+    "href": "syllabus.html#midterm-7-of-final-grade",
+    "title": "Syllabus",
+    "section": "📝 Midterm (7% of final grade)",
+    "text": "📝 Midterm (7% of final grade)\n\nThere will be one midterm assigned on Wed Mar-5th.\nMore information about the midterm will be announced as we approach its due date.\nUnless you have approved accommodations, we won’t be able to provide any extensions if you miss the midterm.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#final-exam-21-of-final-grade",
+    "href": "syllabus.html#final-exam-21-of-final-grade",
+    "title": "Syllabus",
+    "section": "📝 Final Exam (21% of final grade)",
+    "text": "📝 Final Exam (21% of final grade)\n\nThere will be one final exam.\nThe final exam will be on Wed May-14th (7pm-10pm), as scheduled by the University.\nMore information about the final exam will be provided as we approach its due date.\nUnless you have accommodations as determined by the university and approved by the instructor, you must take the exam at the date and times provided here.\nPlease check your course schedule and make sure that you can take the final exam on the scheduled date. Otherwise, do not take the class if you are not available at this date.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#grading-structure",
+    "href": "syllabus.html#grading-structure",
+    "title": "Syllabus",
+    "section": "💯 Grading Structure",
+    "text": "💯 Grading Structure\nGrades will be assigned using the following weighted components:\n\n10% Lab (drop 2 lowest scores)\n35% Psets (drop lowest score)\n8% App1 (no drop)\n9% App2 (no drop)\n10% App3 (no drop)\n7% Midterm\n21% Final Exam\n\n\nTo complete the course, you must take the final exam.\nTo try to keep grading consistent across semesters, I may occasionally curve an individual assignment. I will do this only if I made the assignment or exam harder than I intended, and no one’s scores will decrease as a result of the curve. This will happen very rarely, probably not at all.\nTo give you a rough idea of the grading scheme, the assignment of letter grades in previous semesters has been as follows:\n\n😀 90-100% (Excellent) A-/A/A+ range\n🙂 80-90% (Good) B-/B/B+ range\n😐 70-80% (Fair) C-/C/C+ range\n🙁 60-70% (Deficient) D\n😞 Below 60% (Failed) F\n\nIf you are taking the class pass-fail, the cut-oﬀ for passing is 70% (C-).\nAs a matter of course policy, I do not round up when calculating letter grades. Ex: if your overall score is 79.9999%, then the highest letter grade that you can expect is a C+, not a B-.\nThere is no curve; your grade will depend only on how well you do, and not on how well everyone else does.\nLetter grades are final; I don’t enter into negotiations with students about grades.\nPlease do not engage in grade grubbing.\nAlso, please remember that we grade your course performance, not your personal worth.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#generative-a.i.-policy",
+    "href": "syllabus.html#generative-a.i.-policy",
+    "title": "Syllabus",
+    "section": "⚠️ Generative A.I. Policy",
+    "text": "⚠️ Generative A.I. Policy\nGenerative A.I. refers to artificial intelligence technologies, like those used for ChatGPT and similar, that can draw on a large corpus of training data to create new written, visual, or audio content.\nThere are two principles we use to guide our class policy on AI use:\n\nCognitive dimension: Working with AI should not reduce your ability to think clearly. The use of AI should facilitate—rather than hinder—learning.\nEthical dimension: Students using AI should be transparent about their use and make sure it aligns with academic integrity.\n\nIn this course, we’ll be developing skills that are important to practice on your own. Because use of generative A.I. may inhibit the development of those skills, the use of these tools is permitted in this course for the following activities:\n\nBrainstorming and refining your ideas;\nFine tuning your exploratory/research questions;\nDrafting an outline to organize your thoughts;\nChecking syntax errors or bugs in your code; and\nPolishing your spelling and grammar.\n\nThe use of generative A.I. tools is not permitted in this course for the following activities:\n\nImpersonating you in classroom contexts, such as by using the tool to compose discussion board prompts assigned to you or content that you put into a discussion forum/chat.\nAttempting to pass off AI-generated work as your own.\nWriting a draft of your assignment.\nWriting entire blocks of code, functions, or scripts to complete class assignments.\n\nPlease keep in mind that use of generative A.I. tools can impede your learning by generating ideas for you before you had a chance to think of your own ideas; inhibiting the development of your own writing skills; generating factually inaccurate statements or fictional reference sources; etc.\nIf you are unsure of whether and how much of a submission has been AI-generated, or whether you are in violation of a certain policy, please reach out to us and ask for guidance.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#academic-honesty",
+    "href": "syllabus.html#academic-honesty",
+    "title": "Syllabus",
+    "section": "☝️ Academic Honesty",
+    "text": "☝️ Academic Honesty\nYou should not share your code or answers, directly or indirectly, with other students. Doing so doesn’t help them; it just sets them up for trouble on exams. Feel free to discuss the problems with others beforehand, but not the solutions. Please complete your own work and keep it to yourself (e.g. avoid sharing it in hosting platforms like Github or similar). If you suspect other people may be plagiarizing you, let us know ASAP.\nWe expect you to do your own work and to uphold the standards of intellectual integrity. Collaborating on homework is fine and we encourage you to work together—but copying is not, nor is having somebody else submit assignments for you. Likewise, obtaining and/or using solutions from previous years or from the internet, if such happen to be available, is considered cheating.\nBeyond the templates or starting code provided by the teaching staff, any writing, code, media, or other submissions not explicitly identified as AI-generated will be assumed as original to the student. Submitting AI-generated work without identifying it as such will be considered a violation of the Code of Student Conduct.\nCheating will not be tolerated. Any evidence of academic misconduct will result in a score of zero (0) on the entire assignment or examination, and a failing letter grade. We will always report incidences of cheating to the Center for Student Conduct.\nIf you are having trouble with an assignment or studying for an exam, or if you are uncertain about permissible and impermissible conduct or collaboration, please contact us.\nRather than copying someone else’s work, ask for help. You are not alone in this course! The course staff is here to help you succeed. If you invest the time to learn the material and complete the projects, you won’t need to copy any answers.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#email-policy",
+    "href": "syllabus.html#email-policy",
+    "title": "Syllabus",
+    "section": "✉️ Email Policy",
+    "text": "✉️ Email Policy\nIf you wish for your email to make it into our inbox, the subject of your email must contain the text: Stat 133.\nPlease refer to my email guidelines for more information: communication via email",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#special-accommodations",
+    "href": "syllabus.html#special-accommodations",
+    "title": "Syllabus",
+    "section": "🚸 Special Accommodations",
+    "text": "🚸 Special Accommodations\nStudents needing accommodations for any physical, psychological, or learning disability, should contact the teaching staff during the first two weeks of the semester, and see http://dsp.berkeley.edu to learn about Berkeley’s policy. If you are a DSP student, please contact us at least three weeks prior to a midterm or final so that we can work out acceptable accommodations.\nFor relevant DSP accommodations that provide occasional extensions on assignments, please see the above Late Policy.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#incomplete-grade",
+    "href": "syllabus.html#incomplete-grade",
+    "title": "Syllabus",
+    "section": "❗Incomplete Grade",
+    "text": "❗Incomplete Grade\nUnder emergency/special circumstances, students may petition me to receive an Incomplete grade. By University policy, for a student to get an Incomplete requires (i) that the student was performing passing-level work until the time that (ii) something happened that—through no fault of the student—prevented the student from completing the coursework. If you take the final, you completed the course, even if you took it while ill, exhausted, mourning, etc. The time to talk to me about incomplete grades is BEFORE you take the final (several weeks before), when the situation that prevents you from finishing the course presents itself. Please clearly state your reasoning in your comments to me.\nIt is your responsibility to develop good time management skills, good studying habits, know your limits, and learn to ask for professional help. Life happens. Social, family, cultural, scholar, and individual circumstances can affect your performance (both positive and negatively). If you find yourself in a situation that raises concerns about passing the course, please contact me as soon as possible.\nAbove all, please-please-please do not wait till the end of the semester to share your concerns about passing the course because it will be too late by then.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#safe-and-inclusive-environment",
+    "href": "syllabus.html#safe-and-inclusive-environment",
+    "title": "Syllabus",
+    "section": "🌻 Safe and Inclusive Environment",
+    "text": "🌻 Safe and Inclusive Environment\nWhenever a faculty member, staff member, post-doc, or GSI is responsible for the supervision of a student, a personal relationship between them of a romantic or sexual nature, even if consensual, is against university policy. Any such relationship jeopardizes the integrity of the educational process.\nAlthough faculty and staff can act as excellent resources for students, you should be aware that they are required to report any violations of this campus policy. If you wish to have a confidential discussion on matters related to this policy, you may contact the Confidential Care Advocates on campus for support related to counseling or sensitive issues. Appointments can be made by calling (510) 642-1988.\nThe classroom, lab, and work place should be safe and inclusive environments for everyone. The Office for the Prevention of Harassment and Discrimination (OPHD) is responsible for ensuring the University provides an environment for faculty, staff and students that is free from discrimination and harassment on the basis of categories including race, color, national origin, age, sex, gender, gender identity, and sexual orientation. Questions or concerns? Call (510) 643-7985, email ask_ophd@berkeley.edu, or go to https://svsh.berkeley.edu/.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#last-but-not-least",
+    "href": "syllabus.html#last-but-not-least",
+    "title": "Syllabus",
+    "section": "🎉 Last But Not Least",
+    "text": "🎉 Last But Not Least\nThe main goal of STAT 133 is that you should learn, and have a fantastic experience doing so. Please keep that goal in mind throughout the semester.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "five-things.html",
+    "href": "five-things.html",
+    "title": "Five things you need to know to pass this class",
+    "section": "",
+    "text": "Here they are, in no particular order.",
+    "crumbs": [
+      "Other",
+      "5 Things to know"
+    ]
+  },
+  {
+    "objectID": "five-things.html#read-instructions-carefully",
+    "href": "five-things.html#read-instructions-carefully",
+    "title": "Five things you need to know to pass this class",
+    "section": "1) Read Instructions Carefully",
+    "text": "1) Read Instructions Carefully\nYou must carefully read the instructions provided for each assignment. Read, not skim! They contain information vital for the completion of the assigned work.",
+    "crumbs": [
+      "Other",
+      "5 Things to know"
+    ]
+  },
+  {
+    "objectID": "five-things.html#do-all-the-assigned-work",
+    "href": "five-things.html#do-all-the-assigned-work",
+    "title": "Five things you need to know to pass this class",
+    "section": "2) Do all the assigned work",
+    "text": "2) Do all the assigned work\nThis course is a very hands-on course and requires many hours of practical work outside class and lab. It also requires reviewing ALL the learning materials shared in this website and in bCourses.\nIt goes without saying that you should do all the assigned work: attend lecture and section, review the practice material discussed in lab, and of course do all HW assignments. Keep in mind that the activities and assignments build upon earlier work. So it’s important not to fall behind and avoid leaving gaps along the semester.\nOn the technical side, you should have your own computer, (good) internet connection, download and install specific software (e.g. R, RStudio, gitbash, zoom), and also know how to record a video of both 1) computer’s screen capture, and 2) face capture (e.g. a zoom recording makes this easy). We will provide more detailed instructions about the required tools as we move forward with the semester.",
+    "crumbs": [
+      "Other",
+      "5 Things to know"
+    ]
+  },
+  {
+    "objectID": "five-things.html#no-need-to-memorize-all-commands",
+    "href": "five-things.html#no-need-to-memorize-all-commands",
+    "title": "Five things you need to know to pass this class",
+    "section": "3) No need to memorize all commands",
+    "text": "3) No need to memorize all commands\nDo you need to memorize all commands? No! We don’t expect that you memorize all commands. In fact, you can find a series of cheatsheets that you can (and should) use at all times (even during quizzes and tests).\nHowever, we do expect that you learn the most common types of functions in R: e.g. library(), function(), help(), etc. More important, we expect that you understand the “logic” and working principles of certain data objects, common programming structures, good practices, etc.",
+    "crumbs": [
+      "Other",
+      "5 Things to know"
+    ]
+  },
+  {
+    "objectID": "five-things.html#study-for-tests",
+    "href": "five-things.html#study-for-tests",
+    "title": "Five things you need to know to pass this class",
+    "section": "4) Study for tests",
+    "text": "4) Study for tests\nThe exams are a way to test your understanding of the various concepts presented in the course. The exams are also a way to test whether you are really doing all the practical work by yourself.\nIn theory, students who do an honest effort in completing all the assignments (e.g. writing commands, understanding commands, learning the syntax, etc) should be able to get a passing score in these tests.",
+    "crumbs": [
+      "Other",
+      "5 Things to know"
+    ]
+  },
+  {
+    "objectID": "five-things.html#what-else-do-you-recommend-to-succeed-in-this-course",
+    "href": "five-things.html#what-else-do-you-recommend-to-succeed-in-this-course",
+    "title": "Five things you need to know to pass this class",
+    "section": "5) What else do you recommend to succeed in this course?",
+    "text": "5) What else do you recommend to succeed in this course?\nThis one is hard to answer, in part because it depends on your personal definition of “success”. Simply put, I don’t think there’s a unique recipe for success. Instead, let me answer this question by telling you about the typical factors that may negatively affect your performance:\n\nnot attending lecture and/or lab,\nnot submitting assignments,\nlooking at the solutions of other students and “inadvertently” copy them,\npoor studying/working habits\nbeing afraid/scared/ashamed of asking the teaching staff for help\nyou’ve been doing work of passing quality and you cannot complete the course due to circumstances beyond your control\n\nDon’t underestimate the second to last item. Coding (in any programming language) can be extremely frustrating at times. You would be surprised to hear my collection of student stories about all sorts of bugs, typos, misspellings, and the like, that gave them a fair amount of frustration. So please, ask the teaching staff for help in a timely and respectful manner.\nAs for the last item, please let us know you’ve been affected by circumstances beyond your control as soon as possible. While we cannot guarantee any outcome, we will do what is within our reach to help you in this class.",
+    "crumbs": [
+      "Other",
+      "5 Things to know"
+    ]
+  },
+  {
+    "objectID": "data.html",
+    "href": "data.html",
+    "title": "Data",
+    "section": "",
+    "text": "[UNDER CONSTRUCTION]\nWe’ll use data from several real world situations in class."
+  },
+  {
+    "objectID": "data.html#data-1",
+    "href": "data.html#data-1",
+    "title": "Data",
+    "section": "Data 1",
+    "text": "Data 1"
+  },
+  {
+    "objectID": "data.html#data-2",
+    "href": "data.html#data-2",
+    "title": "Data",
+    "section": "Data 2",
+    "text": "Data 2"
   }
 ]
